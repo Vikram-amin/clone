@@ -1,0 +1,148 @@
+#footerParent{
+            max-width: 100%;
+            margin: auto;
+            background-color: #33425A;
+            margin: -10px;
+            height: 55vh;
+        }
+
+        .footerFrame{
+              margin: auto;  
+              display: grid;
+              width: 100%;
+              grid-gap:10px;
+              padding: 5px;
+              grid-template: "a b c d";
+                           
+
+        }
+
+        .footerFrame > div{
+              height: 50vh;
+             
+
+        }
+
+        .footerFrame > div > div{
+             text-align: left;
+             margin-left: 5%;
+             line-height: 30px;
+             color: #dadada;
+             font-size: 13px;
+             font-family: Open Sans,Helvetica,Arial,sans-serif;
+        }
+
+        .footerFrame .footerhedding{
+              font-size: 13px;
+              font-weight: 700;
+              letter-spacing: 0;
+              text-align: left;
+              color: #fff;
+              text-transform: uppercase;
+              margin-top: 25px;
+
+
+        }
+
+        .footerblock1{
+               grid-area: a;
+             
+        }
+         .footerblock2{
+               grid-area: b;
+               
+        }
+         .footerblock3{
+               grid-area: c;
+               
+        }
+         .footerblock4{
+               grid-area: d;
+               
+        }
+
+       .footerFrame2 > div {
+             display: flex;      
+             justify-content: space-between;
+         
+        }
+        .footerFrame2 > div >div{
+         display: flex;  
+         margin-top: 40px;
+         
+        }
+
+        .footerFrame2 > div >div{
+         display: flex;  
+         margin-top: 40px;
+         
+        }
+
+        .footerFrame2 > div > div >div> span:nth-child(1){
+               color:black;
+               font-size: 12px;
+               margin-left: 20px; 
+              
+        }
+
+        .footerFrame2 > div > div >div> span:nth-child(3){
+               color: #707070;
+               font-size: 10px;
+               margin-left: 20px; 
+        }
+
+         .footerFrame2 > div >div>img{
+            margin-right: 10px;
+         }
+
+         .footerFrame3 >p{
+                margin-top: 30px;
+                font-size: 11px;
+                text-align: center;
+                color: #222;;
+         }
+         
+         .footerFrame4 {
+             margin-top: 20px;
+             text-align: center;
+
+         }
+         
+         .footerFrame4 > a{
+             width: 16px;
+             height: 16px;
+             color: wheat;
+             border-radius: 2px;
+              padding: 5px; 
+             margin: 10px;
+             text-align: center;
+
+         }
+
+         .footerFrame4 > a:nth-child(1){
+             background-color: #3A5795;
+         }
+
+         .footerFrame4 > a:nth-child(2){
+             background-color: #0084B4;
+         }
+        
+         .footerFrame4 > a:nth-child(3){
+             background-color: #125688;
+         }
+
+         .footerFrame4 > a:nth-child(5){
+             background-color: #BD081C;
+         }
+
+         .footerFrame4 > a:nth-child(6){
+             background-color: #CC181E;
+         }
+
+         .footerFrame4 > a:nth-child(7){
+             background-color: #4B367C;
+         }
+
+         .footerFrame4 > a:nth-child(4){
+             background-color: #7289DA;
+         }
