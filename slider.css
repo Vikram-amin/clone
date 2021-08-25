@@ -1,3 +1,5 @@
+
+ /* =====================================slider 8 =========================================*/
 #Toprate_page {
     width: 90%;
     margin: auto;
@@ -5,6 +7,7 @@
     overflow: hidden;
     position: relative;
     margin-bottom: 10px;
+       margin-top: -40px;
     /* border: 1px solid red;  */
 }
 #Toprate_page span {
@@ -155,3 +158,1142 @@ left: 14%;
 left: 7%;
 }
 
+
+ /* =====================================slider 8 end=========================================*/
+
+  /* =====================================slider 7=========================================*/
+
+#slider7 {
+    width: 90%;
+    margin: auto;
+    height: 65vh;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 10px;
+        margin-top: -40px;
+    /* border: 1px solid red;  */
+}
+#slider7 span {
+    position: absolute;
+    top: 35%;
+    font-size: 60px;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+    left: 0%;
+    z-index: 1;
+}
+
+#slider7 span:nth-of-type(2) {
+    left: 98%;
+    text-align: right;
+}
+
+#slider7 section {
+    width: 90%; 
+    margin: auto;
+    /* height: 300px; */
+    background: #f4f4f4;
+    /* margin: 10px auto; */
+    display: flex;
+    justify-content: left;
+    overflow-x: auto;
+    /* border: 1px solid blue;  */
+ 
+}
+
+#slider7 section::-webkit-scrollbar {
+    visibility: hidden;
+}
+
+#slider7 section  div {
+     position: relative;
+     left: 0;
+     font-size: 100px;
+     font-weight: bold;
+     margin: 0px 10px;
+     transition: 0.5s;
+     /* border: 1px solid black;  */
+     padding: 0% 1.5%;
+      /* width: 350px;
+     height: 250px; */
+     padding: 25px;
+}
+
+#slider7 section img{
+    height: 135px;
+    width: 180px;
+    /* border: 1px solid orange;  */
+    border-radius: 15px;
+    padding:0px,20px;
+    margin: 10px;
+  
+  
+}
+#slider7 section p{
+      color: #222;
+}
+
+#slider7 .slider7top{
+    font-size: 30px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    vertical-align: baseline;
+    color: #222;
+    font-weight: -100;
+   
+}
+
+.Tname{
+    margin-top: -90px;
+   
+}
+
+.Tname:hover{
+    color: blue !important;
+}
+
+.Tprice{
+    text-align: left;
+    margin-left: -40px;
+    margin-top: -5px;
+}
+
+#rateT{
+  
+    margin-top: -10px;
+    width: 100%;
+    height: 5vh;
+    position: relative;
+    
+}
+
+#rateT p{
+margin: 0;
+padding: -40px;
+display: flex;
+margin-left: 40px;
+}
+
+#rateT i{
+    color: #FFBB00;
+    font-size: 15px;
+    width: 100px;
+    /* padding-top: -200px;*/
+     position: absolute;
+     left: 0;
+    
+     
+   
+}
+
+#rateT span{
+    color: black;
+    font-size: 14px;
+    /* margin-top: 70px;
+  text-align: right !important;
+  align-items: flex-end; */
+  position: absolute;
+  left: 60%;
+  top: 0px;
+    
+}
+
+
+
+#rateT i:nth-child(5){
+  color: #d0d9df;
+   padding: 2px 0 0 2px;
+   left: 28%;
+ }
+
+
+#rateT i:nth-child(4){
+left: 21%;
+}
+
+#rateT i:nth-child(3){
+left: 14%;
+}
+
+#rateT i:nth-child(2){
+left: 7%;
+}
+
+
+ /* =====================================slider 7 end=========================================*/
+
+   /* =====================================slider 1=========================================*/
+
+#slider1 {
+    width: 90%;
+    margin: auto;
+    height: 65vh;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 10px;
+    /* border: 1px solid red;  */
+}
+#slider1 span {
+    position: absolute;
+    top: 35%;
+    font-size: 60px;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+    left: 0%;
+    z-index: 1;
+}
+
+#slider1 span:nth-of-type(2) {
+    left: 98%;
+    text-align: right;
+}
+
+#slider1 section {
+    width: 90%; 
+    margin: auto;
+    /* height: 300px; */
+    background: #f4f4f4;
+    /* margin: 10px auto; */
+    display: flex;
+    justify-content: left;
+    overflow-x: auto;
+    /* border: 1px solid blue;  */
+ 
+}
+
+#slider1 section::-webkit-scrollbar {
+    visibility: hidden;
+}
+
+#slider1 section  div {
+     position: relative;
+     left: 0;
+     font-size: 100px;
+     font-weight: bold;
+     margin: 0px 10px;
+     transition: 0.5s;
+     /* border: 1px solid black;  */
+     padding: 0% 1.5%;
+      /* width: 350px;
+     height: 250px; */
+     padding: 25px;
+}
+
+#slider1 section img{
+    height: 135px;
+    width: 180px;
+    border-radius: 15px;
+    padding:0px,20px;
+    margin: 10px; 
+}
+#slider7 section p{
+      color: #222;
+}
+
+#slider1 .slider1top{
+    font-size: 30px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    vertical-align: baseline;
+    color: #222;
+    font-weight: -100;
+   
+}
+
+.Tname{
+    margin-top: -90px;
+   
+}
+
+.Tname:hover{
+    color: blue !important;
+}
+
+.Tprice{
+    text-align: left;
+    margin-left: -40px;
+    margin-top: -5px;
+}
+
+#rateT{
+  
+    margin-top: -10px;
+    width: 100%;
+    height: 5vh;
+    position: relative;
+    
+}
+
+#rateT p{
+margin: 0;
+padding: -40px;
+display: flex;
+margin-left: 40px;
+}
+
+#rateT i{
+    color: #FFBB00;
+    font-size: 15px;
+    width: 100px;
+    /* padding-top: -200px;*/
+     position: absolute;
+     left: 0;
+    
+     
+   
+}
+
+#rateT span{
+    color: black;
+    font-size: 14px;
+    /* margin-top: 70px;
+  text-align: right !important;
+  align-items: flex-end; */
+  position: absolute;
+  left: 60%;
+  top: 0px;
+    
+}
+
+
+
+#rateT i:nth-child(5){
+  color: #d0d9df;
+   padding: 2px 0 0 2px;
+   left: 28%;
+ }
+
+
+#rateT i:nth-child(4){
+left: 21%;
+}
+
+#rateT i:nth-child(3){
+left: 14%;
+}
+
+#rateT i:nth-child(2){
+left: 7%;
+}
+
+
+ /* =====================================slider 1 end=========================================*/
+
+   /* =====================================slider 2=========================================*/
+
+#slider2 {
+    width: 90%;
+    margin: auto;
+    height: 65vh;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 10px;
+    /* border: 1px solid red;  */
+    margin-top: -40px;
+}
+#slider2 span {
+    position: absolute;
+    top: 35%;
+    font-size: 60px;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+    left: 0%;
+    z-index: 1;
+}
+
+#slider2 span:nth-of-type(2) {
+    left: 98%;
+    text-align: right;
+}
+
+#slider2 section {
+    width: 90%; 
+    margin: auto;
+    /* height: 300px; */
+    background: #f4f4f4;
+    /* margin: 10px auto; */
+    display: flex;
+    justify-content: left;
+    overflow-x: auto;
+    /* border: 1px solid blue;  */
+ 
+}
+
+#slider2 section::-webkit-scrollbar {
+    visibility: hidden;
+}
+
+#slider2 section  div {
+     position: relative;
+     left: 0;
+     font-size: 100px;
+     font-weight: bold;
+     margin: 0px 10px;
+     transition: 0.5s;
+     /* border: 1px solid black;  */
+     padding: 0% 1.5%;
+      /* width: 350px;
+     height: 250px; */
+     padding: 25px;
+}
+
+#slider2 section img{
+    height: 135px;
+    width: 180px;
+    /* border: 1px solid orange;  */
+    border-radius: 15px;
+    padding:0px,20px;
+    margin: 10px;
+  
+  
+}
+#slider2 section p{
+      color: #222;
+}
+
+#slider2 .slider2top{
+    font-size: 30px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    vertical-align: baseline;
+    color: #222;
+    font-weight: -100;
+   
+}
+
+.Tname{
+    margin-top: -90px;
+   
+}
+
+.Tname:hover{
+    color: blue !important;
+}
+
+.Tprice{
+    text-align: left;
+    margin-left: -40px;
+    margin-top: -5px;
+}
+
+#rateT{
+  
+    margin-top: -10px;
+    width: 100%;
+    height: 5vh;
+    position: relative;
+    
+}
+
+#rateT p{
+margin: 0;
+padding: -40px;
+display: flex;
+margin-left: 40px;
+}
+
+#rateT i{
+    color: #FFBB00;
+    font-size: 15px;
+    width: 100px;
+    /* padding-top: -200px;*/
+     position: absolute;
+     left: 0;
+    
+     
+   
+}
+
+#rateT span{
+    color: black;
+    font-size: 14px;
+    /* margin-top: 70px;
+  text-align: right !important;
+  align-items: flex-end; */
+  position: absolute;
+  left: 60%;
+  top: 0px;
+    
+}
+
+
+
+#rateT i:nth-child(5){
+  color: #d0d9df;
+   padding: 2px 0 0 2px;
+   left: 28%;
+ }
+
+
+#rateT i:nth-child(4){
+left: 21%;
+}
+
+#rateT i:nth-child(3){
+left: 14%;
+}
+
+#rateT i:nth-child(2){
+left: 7%;
+}
+
+
+ /* =====================================slider 2 end=========================================*/
+
+   /* =====================================slider 3=========================================*/
+
+#slider3 {
+    width: 90%;
+    margin: auto;
+    height: 65vh;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 10px;
+        margin-top: -40px;
+    /* border: 1px solid red;  */
+}
+#slider3 span {
+    position: absolute;
+    top: 35%;
+    font-size: 60px;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+    left: 0%;
+    z-index: 1;
+}
+
+#slider3 span:nth-of-type(2) {
+    left: 98%;
+    text-align: right;
+}
+
+#slider3 section {
+    width: 90%; 
+    margin: auto;
+    /* height: 300px; */
+    background: #f4f4f4;
+    /* margin: 10px auto; */
+    display: flex;
+    justify-content: left;
+    overflow-x: auto;
+    /* border: 1px solid blue;  */
+ 
+}
+
+#slider3 section::-webkit-scrollbar {
+    visibility: hidden;
+}
+
+#slider3 section  div {
+     position: relative;
+     left: 0;
+     font-size: 100px;
+     font-weight: bold;
+     margin: 0px 10px;
+     transition: 0.5s;
+     /* border: 1px solid black;  */
+     padding: 0% 1.5%;
+      /* width: 350px;
+     height: 250px; */
+     padding: 25px;
+}
+
+#slider3 section img{
+    height: 135px;
+    width: 180px;
+    /* border: 1px solid orange;  */
+    border-radius: 15px;
+    padding:0px,20px;
+    margin: 10px;
+  
+  
+}
+#slider3 section p{
+      color: #222;
+}
+
+#slider3 .slider3top{
+    font-size: 30px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    vertical-align: baseline;
+    color: #222;
+    font-weight: -100;
+   
+}
+
+.Tname{
+    margin-top: -90px;
+   
+}
+
+.Tname:hover{
+    color: blue !important;
+}
+
+.Tprice{
+    text-align: left;
+    margin-left: -40px;
+    margin-top: -5px;
+}
+
+#rateT{
+  
+    margin-top: -10px;
+    width: 100%;
+    height: 5vh;
+    position: relative;
+    
+}
+
+#rateT p{
+margin: 0;
+padding: -40px;
+display: flex;
+margin-left: 40px;
+}
+
+#rateT i{
+    color: #FFBB00;
+    font-size: 15px;
+    width: 100px;
+    /* padding-top: -200px;*/
+     position: absolute;
+     left: 0;
+    
+     
+   
+}
+
+#rateT span{
+    color: black;
+    font-size: 14px;
+    /* margin-top: 70px;
+  text-align: right !important;
+  align-items: flex-end; */
+  position: absolute;
+  left: 60%;
+  top: 0px;
+    
+}
+
+
+
+#rateT i:nth-child(5){
+  color: #d0d9df;
+   padding: 2px 0 0 2px;
+   left: 28%;
+ }
+
+
+#rateT i:nth-child(4){
+left: 21%;
+}
+
+#rateT i:nth-child(3){
+left: 14%;
+}
+
+#rateT i:nth-child(2){
+left: 7%;
+}
+
+
+ /* =====================================slider 3 end=========================================*/
+
+   /* =====================================slider 4=========================================*/
+
+#slider4 {
+    width: 90%;
+    margin: auto;
+    height: 65vh;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 10px;
+        margin-top: -40px;
+    /* border: 1px solid red;  */
+}
+#slider4 span {
+    position: absolute;
+    top: 35%;
+    font-size: 60px;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+    left: 0%;
+    z-index: 1;
+}
+
+#slider4 span:nth-of-type(2) {
+    left: 98%;
+    text-align: right;
+}
+
+#slider4 section {
+    width: 90%; 
+    margin: auto;
+    /* height: 300px; */
+    background: #f4f4f4;
+    /* margin: 10px auto; */
+    display: flex;
+    justify-content: left;
+    overflow-x: auto;
+    /* border: 1px solid blue;  */
+ 
+}
+
+#slider4 section::-webkit-scrollbar {
+    visibility: hidden;
+}
+
+#slider4 section  div {
+     position: relative;
+     left: 0;
+     font-size: 100px;
+     font-weight: bold;
+     margin: 0px 10px;
+     transition: 0.5s;
+     /* border: 1px solid black;  */
+     padding: 0% 1.5%;
+      /* width: 350px;
+     height: 250px; */
+     padding: 25px;
+}
+
+#slider4 section img{
+    height: 135px;
+    width: 180px;
+    /* border: 1px solid orange;  */
+    border-radius: 15px;
+    padding:0px,20px;
+    margin: 10px;
+  
+  
+}
+#slider4 section p{
+      color: #222;
+}
+
+#slider4 .slider4top{
+    font-size: 30px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    vertical-align: baseline;
+    color: #222;
+    font-weight: -100;
+   
+}
+
+.Tname{
+    margin-top: -90px;
+   
+}
+
+.Tname:hover{
+    color: blue !important;
+}
+
+.Tprice{
+    text-align: left;
+    margin-left: -40px;
+    margin-top: -5px;
+}
+
+#rateT{
+  
+    margin-top: -10px;
+    width: 100%;
+    height: 5vh;
+    position: relative;
+    
+}
+
+#rateT p{
+margin: 0;
+padding: -40px;
+display: flex;
+margin-left: 40px;
+}
+
+#rateT i{
+    color: #FFBB00;
+    font-size: 15px;
+    width: 100px;
+    /* padding-top: -200px;*/
+     position: absolute;
+     left: 0;
+    
+     
+   
+}
+
+#rateT span{
+    color: black;
+    font-size: 14px;
+    /* margin-top: 70px;
+  text-align: right !important;
+  align-items: flex-end; */
+  position: absolute;
+  left: 60%;
+  top: 0px;
+    
+}
+
+
+
+#rateT i:nth-child(5){
+  color: #d0d9df;
+   padding: 2px 0 0 2px;
+   left: 28%;
+ }
+
+
+#rateT i:nth-child(4){
+left: 21%;
+}
+
+#rateT i:nth-child(3){
+left: 14%;
+}
+
+#rateT i:nth-child(2){
+left: 7%;
+}
+
+
+ /* =====================================slider 4 end=========================================*/
+
+   /* =====================================slider 5=========================================*/
+
+#slider5 {
+    width: 90%;
+    margin: auto;
+    height: 65vh;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 10px;
+        margin-top: -40px;
+    /* border: 1px solid red;  */
+}
+#slider5 span {
+    position: absolute;
+    top: 35%;
+    font-size: 60px;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+    left: 0%;
+    z-index: 1;
+}
+
+#slider5 span:nth-of-type(2) {
+    left: 98%;
+    text-align: right;
+}
+
+#slider5 section {
+    width: 90%; 
+    margin: auto;
+    /* height: 300px; */
+    background: #f4f4f4;
+    /* margin: 10px auto; */
+    display: flex;
+    justify-content: left;
+    overflow-x: auto;
+    /* border: 1px solid blue;  */
+ 
+}
+
+#slider5 section::-webkit-scrollbar {
+    visibility: hidden;
+}
+
+#slider5 section  div {
+     position: relative;
+     left: 0;
+     font-size: 100px;
+     font-weight: bold;
+     margin: 0px 10px;
+     transition: 0.5s;
+     /* border: 1px solid black;  */
+     padding: 0% 1.5%;
+      /* width: 350px;
+     height: 250px; */
+     padding: 25px;
+}
+
+#slider5 section img{
+    height: 135px;
+    width: 180px;
+    /* border: 1px solid orange;  */
+    border-radius: 15px;
+    padding:0px,20px;
+    margin: 10px;
+  
+  
+}
+#slider5 section p{
+      color: #222;
+}
+
+#slider5 .slider5top{
+    font-size: 30px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    vertical-align: baseline;
+    color: #222;
+    font-weight: -100;
+   
+}
+
+.Tname{
+    margin-top: -90px;
+   
+}
+
+.Tname:hover{
+    color: blue !important;
+}
+
+.Tprice{
+    text-align: left;
+    margin-left: -40px;
+    margin-top: -5px;
+}
+
+#rateT{
+  
+    margin-top: -10px;
+    width: 100%;
+    height: 5vh;
+    position: relative;
+    
+}
+
+#rateT p{
+margin: 0;
+padding: -40px;
+display: flex;
+margin-left: 40px;
+}
+
+#rateT i{
+    color: #FFBB00;
+    font-size: 15px;
+    width: 100px;
+    /* padding-top: -200px;*/
+     position: absolute;
+     left: 0;
+    
+     
+   
+}
+
+#rateT span{
+    color: black;
+    font-size: 14px;
+    /* margin-top: 70px;
+  text-align: right !important;
+  align-items: flex-end; */
+  position: absolute;
+  left: 60%;
+  top: 0px;
+    
+}
+
+
+
+#rateT i:nth-child(5){
+  color: #d0d9df;
+   padding: 2px 0 0 2px;
+   left: 28%;
+ }
+
+
+#rateT i:nth-child(4){
+left: 21%;
+}
+
+#rateT i:nth-child(3){
+left: 14%;
+}
+
+#rateT i:nth-child(2){
+left: 7%;
+}
+
+
+ /* =====================================slider 5 end=========================================*/
+
+   /* =====================================slider 6=========================================*/
+
+#slider6 {
+    width: 90%;
+    margin: auto;
+    height: 65vh;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 10px;
+        margin-top: -40px;
+    /* border: 1px solid red;  */
+}
+#slider6 span {
+    position: absolute;
+    top: 35%;
+    font-size: 60px;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+    left: 0%;
+    z-index: 1;
+}
+
+#slider6 span:nth-of-type(2) {
+    left: 98%;
+    text-align: right;
+}
+
+#slider6 section {
+    width: 90%; 
+    margin: auto;
+    /* height: 300px; */
+    background: #f4f4f4;
+    /* margin: 10px auto; */
+    display: flex;
+    justify-content: left;
+    overflow-x: auto;
+    /* border: 1px solid blue;  */
+ 
+}
+
+#slider6 section::-webkit-scrollbar {
+    visibility: hidden;
+}
+
+#slider6 section  div {
+     position: relative;
+     left: 0;
+     font-size: 100px;
+     font-weight: bold;
+     margin: 0px 10px;
+     transition: 0.5s;
+     /* border: 1px solid black;  */
+     padding: 0% 1.5%;
+      /* width: 350px;
+     height: 250px; */
+     padding: 25px;
+}
+
+#slider6 section img{
+    height: 135px;
+    width: 180px;
+    /* border: 1px solid orange;  */
+    border-radius: 15px;
+    padding:0px,20px;
+    margin: 10px;
+  
+  
+}
+#slider6 section p{
+      color: #222;
+}
+
+#slider6 .slider6top{
+    font-size: 30px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    vertical-align: baseline;
+    color: #222;
+    font-weight: -100;
+   
+}
+
+.Tname{
+    margin-top: -90px;
+   
+}
+
+.Tname:hover{
+    color: blue !important;
+}
+
+.Tprice{
+    text-align: left;
+    margin-left: -40px;
+    margin-top: -5px;
+}
+
+#rateT{
+  
+    margin-top: -10px;
+    width: 100%;
+    height: 5vh;
+    position: relative;
+    
+}
+
+#rateT p{
+margin: 0;
+padding: -40px;
+display: flex;
+margin-left: 40px;
+}
+
+#rateT i{
+    color: #FFBB00;
+    font-size: 15px;
+    width: 100px;
+    /* padding-top: -200px;*/
+     position: absolute;
+     left: 0;
+    
+     
+   
+}
+
+#rateT span{
+    color: black;
+    font-size: 14px;
+    /* margin-top: 70px;
+  text-align: right !important;
+  align-items: flex-end; */
+  position: absolute;
+  left: 60%;
+  top: 0px;
+    
+}
+
+
+
+#rateT i:nth-child(5){
+  color: #d0d9df;
+   padding: 2px 0 0 2px;
+   left: 28%;
+ }
+
+
+#rateT i:nth-child(4){
+left: 21%;
+}
+
+#rateT i:nth-child(3){
+left: 14%;
+}
+
+#rateT i:nth-child(2){
+left: 7%;
+}
+
+
+ /* =====================================slider 6 end=========================================*/
