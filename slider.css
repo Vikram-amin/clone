@@ -1,0 +1,157 @@
+#Toprate_page {
+    width: 90%;
+    margin: auto;
+    height: 65vh;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 10px;
+    /* border: 1px solid red;  */
+}
+#Toprate_page span {
+    position: absolute;
+    top: 35%;
+    font-size: 60px;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+    left: 0%;
+    z-index: 1;
+}
+
+#Toprate_page span:nth-of-type(2) {
+    left: 98%;
+    text-align: right;
+}
+
+#Toprate_page section {
+    width: 90%; 
+    margin: auto;
+    /* height: 300px; */
+    background: #f4f4f4;
+    /* margin: 10px auto; */
+    display: flex;
+    justify-content: left;
+    overflow-x: auto;
+    /* border: 1px solid blue;  */
+ 
+}
+
+#Toprate_page section::-webkit-scrollbar {
+    visibility: hidden;
+}
+
+#Toprate_page section  div {
+     position: relative;
+     left: 0;
+     font-size: 100px;
+     font-weight: bold;
+     margin: 0px 10px;
+     transition: 0.5s;
+     /* border: 1px solid black;  */
+     padding: 0% 1.5%;
+      /* width: 350px;
+     height: 250px; */
+     padding: 25px;
+}
+
+#Toprate_page section img{
+    height: 135px;
+    width: 180px;
+    /* border: 1px solid orange;  */
+    border-radius: 15px;
+    padding:0px,20px;
+    margin: 10px;
+  
+  
+}
+#Toprate_page section p{
+      color: #222;
+}
+
+#Toprate_page .headtop{
+    font-size: 30px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    vertical-align: baseline;
+    color: #222;
+    font-weight: -100;
+   
+}
+
+.Tname{
+    margin-top: -90px;
+    color: brown;
+}
+
+.Tname:hover{
+    color: blue;
+}
+
+.Tprice{
+    text-align: left;
+    margin-left: -40px;
+    margin-top: -5px;
+}
+
+#rateT{
+  
+    margin-top: -10px;
+    width: 100%;
+    height: 5vh;
+    position: relative;
+    
+}
+
+#rateT p{
+margin: 0;
+padding: -40px;
+display: flex;
+margin-left: 40px;
+}
+
+#rateT i{
+    color: #FFBB00;
+    font-size: 15px;
+    width: 100px;
+    /* padding-top: -200px;*/
+     position: absolute;
+     left: 0;
+    
+     
+   
+}
+
+#rateT span{
+    color: black;
+    font-size: 14px;
+    /* margin-top: 70px;
+  text-align: right !important;
+  align-items: flex-end; */
+  position: absolute;
+  left: 60%;
+  top: 0px;
+    
+}
+
+
+
+#rateT i:nth-child(5){
+  color: #d0d9df;
+   padding: 2px 0 0 2px;
+   left: 28%;
+ }
+
+
+#rateT i:nth-child(4){
+left: 21%;
+}
+
+#rateT i:nth-child(3){
+left: 14%;
+}
+
+#rateT i:nth-child(2){
+left: 7%;
+}
+
