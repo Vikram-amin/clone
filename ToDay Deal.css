@@ -1,0 +1,379 @@
+ 
+ /*============================================ laptop slider */
+ 
+ #laptopData {
+    width: 25%;
+    height: 90vh;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 10px;
+
+}
+#laptopData span {
+    position: absolute;
+    top: 40%;
+    font-size: 60px;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+    left: 0%;
+    z-index: 1;
+}
+
+#laptopData span:nth-of-type(2) {
+    left: 90%;
+    text-align: right;
+}
+
+#laptopData section {
+    width: 90%; 
+    margin: auto;
+    /* height: 300px; */
+    background: #f4f4f4;
+    /* margin: 10px auto; */
+    display: flex;
+    justify-content: left;
+    overflow-x: auto;
+    /* border: 1px solid blue;  */
+ 
+}
+
+#laptopData section::-webkit-scrollbar {
+    visibility: hidden;
+}
+
+#laptopData section  div {
+     position: relative;
+     left: 0;
+     font-size: 100px;
+     font-weight: bold;
+     margin: 0px 10px;
+     transition: 0.9s;
+     /* border: 1px solid black;  */
+     padding: 0% 1.5%;
+      /* width: 350px;
+     height: 250px; */
+     padding: 25px;
+}
+
+#laptopData section img{
+    height: 135px;
+    width: 180px;
+    border-radius: 15px;
+    padding:0px,20px;
+    margin: 10px; 
+}
+#laptopData section p{
+      color: #222;
+}
+
+#laptopData .slider1top{
+    font-size: 30px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    vertical-align: baseline;
+    color: #222;
+    font-weight: -100;
+   
+}
+
+.Tname{
+    margin-top: -90px;
+   
+}
+
+.Tname:hover{
+    color: blue !important;
+}
+
+.Tprice{
+    text-align: left;
+    margin-left: -40px;
+    margin-top: -5px;
+}
+
+#rateT{
+  
+    margin-top: -10px;
+    width: 100%;
+    height: 5vh;
+    position: relative;
+    
+}
+
+#rateT p{
+margin: 0;
+padding: -40px;
+display: flex;
+margin-left: 40px;
+}
+
+#rateT i{
+    color: #FFBB00;
+    font-size: 15px;
+    width: 100px;
+    /* padding-top: -200px;*/
+     position: absolute;
+     left: 0;
+    
+     
+   
+}
+
+#rateT span{
+    color: black;
+    font-size: 14px;
+    /* margin-top: 70px;
+  text-align: right !important;
+  align-items: flex-end; */
+  position: absolute;
+  left: 60%;
+  top: 0px;
+    
+}
+
+
+
+#rateT i:nth-child(5){
+  color: #d0d9df;
+   padding: 2px 0 0 2px;
+   left: 28%;
+ }
+
+
+#rateT i:nth-child(4){
+left: 21%;
+}
+
+#rateT i:nth-child(3){
+left: 14%;
+}
+
+#rateT i:nth-child(2){
+left: 7%;
+}
+
+ /*=============================================== top deals css */
+
+        #bestdeal{
+            width: 95%;
+            display: flex;
+            margin: auto;
+          
+
+        }
+
+         #bestdeal_products{
+             display: flex;
+             flex-wrap: wrap;
+
+            padding: 10px;
+            width:75%;
+        
+         }
+
+        #bestdeal_products > div {
+   
+            width: 45%;
+            display: flex;
+            padding: 15px;
+        }
+
+
+         #bestdeal_products > div >div{
+             padding: 15px;
+
+         }
+
+         #divimgP img{
+             width: 150px;
+             height: 150px;
+         }
+
+         .Tpname :hover{
+             color: blue !important;
+         
+
+         }
+
+             .Tpname{
+             font-size: 18px !important;
+         
+
+         }
+
+         .bestdealtop{
+            font-size: 30px;
+            font-family: 'Open Sans Condensed', sans-serif;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            vertical-align: baseline;
+            color: #222;
+           font-weight: -100;
+           margin-left: 30px;
+             margin-top: -80px;
+         }
+
+
+         /*========================================= seal all deals button  */
+
+         #seeallDealBtn button{
+             width: 25%;
+             height: 32px;
+             margin-left: 40%;
+             margin-top: 5%;
+             margin-bottom: 3%;
+             outline: none;
+             border: 1px solid #d9d9d9;
+             display: inline-block;
+             padding: 8px 1em;
+             -moz-box-sizing: border-box;
+             box-sizing: border-box;
+             border-radius: 3px;
+             background: rgb(211, 205, 205);
+             color: #222;
+             font-size: 16px;
+             font-weight: 700;
+             font-family:  Open Sans Condensed,Arial Narrow,Helvetica Narrow,arial,helvetica,sans-seri;
+             font-stretch: condensed;
+             letter-spacing: 1px;
+             text-align: center;
+             text-decoration: none!important;
+             text-transform: uppercase;
+             vertical-align: middle;
+             cursor: pointer;
+
+
+         }
+
+
+         /* ===================================================feature product */
+
+         #FeatureDeal{
+             width: 95%;
+             height: 85vh;
+             margin: auto;
+         }
+
+         #FeatureDeal_products {
+             width: 100%;
+             display: flex;
+          
+         }
+
+          #FeatureDeal_products > div{
+             width: 25%;
+          
+          
+          } 
+
+          #FeatureDeal_products .FDimg{
+              width: 260px;
+              height: 200px;
+             padding: 26px;
+          }     
+
+
+         #FeatureDeal_products .FDname{
+            -webkit-box-orient: vertical;
+             display: -webkit-box;
+             margin-bottom: 6px;
+             max-width: 100%;
+             box-sizing: border-box;
+             overflow: hidden;
+             font-weight: 700;
+             font-size: 15px !important;
+             line-height: 1.3;
+             word-wrap: break-word;
+             word-break: break-word;
+             text-overflow: ellipsis;
+             padding: 20px !important;
+            
+        }
+
+       .FDname:hover{
+            color: blue !important; 
+          }
+
+         #FeatureDeal_products #FDprice{
+               text-align: left;
+               margin-left: -20px;
+               margin-top: -5px;
+         }
+
+  
+
+          #FDrate{
+  
+           margin-top: -10px;
+           margin-bottom: -20px;
+           width: 100%;
+           height: 5vh;
+           position: relative;
+    
+          }
+
+          .FDtop{
+            font-size: 30px;
+            font-family: 'Open Sans Condensed', sans-serif;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            vertical-align: baseline;
+            color: #222;
+           font-weight: -100;
+           margin-left: 30px;
+          }
+
+         #FDrate p{
+         margin: 0;
+         padding: -40px;
+         display: flex;
+         margin-left: 40px;
+         }
+
+         #FDrate i{
+         color: #FFBB00;
+         font-size: 15px;
+         width: 100px;
+         /* padding-top: -200px;*/
+          position: absolute;
+          left: 5%;    
+          }
+ 
+        #FDrate span{
+         color: black;
+         font-size: 14px;
+         /* margin-top: 70px;
+         text-align: right !important;
+         align-items: flex-end; */
+         position: absolute;
+         left:30%;
+         top: 0px;
+    
+         }
+
+
+
+          #FDrate i:nth-child(5){
+           color: #a3afb8;
+           padding: 1px 0 0 2px;
+           left: 23%;
+
+          }
+
+
+        #FDrate i:nth-child(4){
+         left: 19%;
+
+        }
+
+        #FDrate i:nth-child(3){
+         left: 14.5%;
+
+        }
+
+        #FDrate i:nth-child(2){
+          left: 10%;
+
+        }
