@@ -1,0 +1,240 @@
+   #navbar{
+    width: 100wh;
+    height: 16vh;
+    padding: 0px;
+    margin: -8px;
+    background-color: blueviolet;  
+}
+   
+   
+   #productBoxParent{
+            width: 95%;
+            margin: auto;
+            margin-top: 50px;
+            display: flex;
+        }
+
+        #boxRight{
+            width: 75%;
+        
+         
+
+        }
+
+        #productimgeBox {
+            height: 350px;
+            width: 350px;
+            float: left;
+            border: 1px solid black;
+            border-radius: 6px;
+    
+
+        }
+
+        .checked {
+            color: orange; 
+            margin-top: 0 !important;
+            margin-bottom: 0 !important;
+
+        }
+
+
+
+        .productprice{
+          font-size: 20px;
+          display: inline-block;
+          font-weight: 700;
+          color: #4f585e;
+          margin-top: 2px;
+       }
+
+          .productprice p{
+            font-size: 10px;
+            color: balck;
+            font-weight: 400;
+           margin-top: 2px;
+           }
+
+          .productprice span{
+            color: black;
+            font-size: 15px;
+            font-weight: 400;
+            padding: 10px;
+            font-family: Open Sans,Helvetica,Arial,sans-serif;
+           }
+
+           .prorating{
+               margin-top: -10px;
+               margin-bottom: -10px;
+           }
+
+            .prorating i{
+              color: gold;
+              padding: 2px 0 0 2px;
+              
+           }
+
+           .prorating i:nth-child(5){
+                color: #d0d9df;
+                padding: 2px 0 0 2px;
+           }
+
+        
+        .prodcutname{
+                 padding: 0px 0;
+                 margin: 0;
+                 padding-top: 5px;
+                 font-size: 20px;
+                 font-weight: 700;
+                 color: #4f585e;
+        }
+
+        .productImg {
+            margin-top: 50px;
+            margin-left: 10px;
+            
+        }
+
+        #productDetailsBox {
+            height: 180px;
+            background-color: rgb(255, 255, 255);
+            float: left;
+            margin-left: 5%;
+            width: 50%;
+        }
+
+        #smallimgbox {
+            clear: both;
+        }
+
+        .divbar {
+            height: 10px;
+            width: 100%;
+        }
+
+       
+
+        #smallimgbox img {
+            height: 50px;
+            width: 50px;
+             border: 1px solid gray;
+             border-radius: 5px;
+             margin-top: 10px;       
+        }
+
+
+        /* product box */
+
+        #description .headdingD,.featureAndDetails .headdingD{
+             font-weight: 700;
+             color: #4f585e;
+             font-size: 15px;
+  }
+
+       .featureAndDetails {
+           border-top: 0.5px solid gray;
+           border-bottom: 0.5px solid gray;
+            margin: 10px;
+
+       }
+
+
+       .featureAndDetails p{
+          color: #4f585e;
+          font-size: 14px;
+          margin:8px;
+          margin-left: 0;
+
+             }
+
+      .featureAndDetails span{
+         color: teal;
+         font-size: 13px;
+         font-weight: 600;
+      }
+
+      #detailimag img:nth-child(1){
+        width: 96.5%;
+        margin-left: 5px;
+        margin-top: 25px;
+        
+      }
+
+     #detailimag p ,  #detailimag h3 {
+         text-align: center;
+         max-width: 85%;
+         margin: auto;
+         line-height: 1.5;
+     }
+
+     #cartBox{
+         width: 25%;
+     }
+
+     
+
+.qty-box {
+    display: flex;
+    position: relative;
+    box-sizing: border-box;
+    margin: 0 10px 0 0;
+    width: 80px;
+    height: 36px;
+    /* overflow: hidden; */
+    border: 1px solid #e3e3e3;
+    text-align: left;
+    background: #fff;
+    margin-left: 20px;
+}
+.qutBTn{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.qty-box input{
+    width: 35px;
+    height: 26px;
+}
+.qty-box button{
+     width: 30px;
+    height: 15px;
+    margin: 1px;
+    font-size: 10px;
+}
+
+ .addtocartButton {
+           border-color: #c60;
+           background: #ffa33a;
+           text-transform: uppercase;
+           color: #222;
+           font: 700 14px/1 Open Sans Condensed,Arial Narrow,Helvetica Narrow,arial,helvetica,sans-serif;
+            position: absolute;
+            height: 36px;
+            width: 200px;
+            padding-bottom: 5px;
+           border-radius: 3px;
+           top: 54%;
+           left: 81.5%;
+        }
+
+        .productpriceleft{
+           margin: 0 0 5px;
+           font-size: 28px;
+           background: #fff;
+           color: #222;
+           margin-left: 20px;
+           margin-bottom: 10px;
+           font-family: 'Open Sans Condensed', sans-serif;
+         
+        }
+
+        .addvimg{
+       margin-top: 30px;
+  
+        }
+
+        #qtyinput{
+            text-align: center;
+            font-size: 16px;
+        }

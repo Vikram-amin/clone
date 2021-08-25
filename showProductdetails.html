@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="showProductdetail.css">
+    <script src="https://kit.fontawesome.com/62c318d183.js" crossorigin="anonymous"></script>
+     <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="slider.css">
+</head>
+<body>
+ <div id="navbar"></div>
+
+<div id="productBoxParent">
+
+    
+    <div id="boxRight">
+    <div id="productimgeBox"></div>
+    <div id="productDetailsBox"></div>
+    <div class="divbar"></div>
+    <div id="smallimgbox"></div>
+
+    
+    <!-- Recomended for you slider -->
+<br> <br> <br> <br> <br> <br>
+  <div id="Toprate_page">
+  <div class="headtop" style="font-size: 20px;">RECOMMENDED FOR YOU</div>
+  <!-- left slider -->
+  <span onclick="slider()">&#139;</span>
+  <!-- right slider -->
+  <span onclick="slider()">&#155;</span>
+  <!-- add and div and style the childs inide the div with your css -->
+  <section id="TopRate_products"> </section>
+</div>
+
+      <div id="detailimag">
+
+        <h3>Centralized backup solution for your digital devices</h3>
+        <p>Synology's comprehensive multi-version backup solutions protect your digital assets on computers (Windows/Mac) and mobile phones (Android/iOS) against malicious attacks, including the rising threat from encryption-based ransomware.</p>
+        <img src="https://images10.newegg.com/BizIntell/item/22/108/22-108-716/1.jpg" alt="">
+        <img src="Images\productdetail1.PNG">
+        <img src="Images\productdetail2.PNG">
+        <img src="Images\productdetail3.PNG">
+        <img src="Images\productdetail4.PNG">
+
+       
+     
+      </div>
+   </div>
+
+     <div id="cartBox">
+          <img src="Images\shipment.PNG">
+          
+          <div id="cartboxPrice"></div>
+
+          <div class="qty-box"><input type="text" id="qtyinput" value="1" aria-label="Qty" > 
+
+            <div class="qutBTn">
+          <button type="button" id="plus"><i class="fas fa-plus"></i></button> 
+          <button type="button" id="minus"><i class="fas fa-minus"></i></button> </div> 
+        </div>
+
+
+          <div class="addvimg">
+              <img src="Images\Capture1.PNG">
+               <img src="Images\Capture2.PNG">
+                <img src="Images\Capture3.PNG">
+                 <img src="Images\Capture4.PNG">
+                  <img src="Images\Capture5.PNG">
+         
+        </div>
+     </div>
+</div>
+
+
+<br> <br>
+<!-- ===========================================Footer======================================================= -->
+
+  <div id="footerParent">
+        <div class="footerFrame">
+
+        <div class="footerblock1">
+            <div class="footerhedding">CUSTOMER SERVICE</div>
+            <div>Help Center</div>
+            <div>Track an Order </div>
+            <div>Return an Item</div>
+            <div>Return Policy</div>
+            <div>Privacy & Security</div>
+            <div>Feedback</div>
+          </div>
+          <div class="footerblock2">
+              <div class="footerhedding">MY ACCOUNT</div>
+              <div>Login/Register</div>
+              <div>Order History</div>
+              <div>Returns History</div>
+              <div>Address Book</div>
+              <div>Wish Lists</div>
+              <div>Email Notifications</div>
+              <div>Auto Notifications</div>
+          </div>
+          <div class="footerblock3">
+              <div class="footerhedding">COMPANY INFORMATION</div>
+              <div>About Newegg</div>
+              <div>Awards/Rankings</div>
+              <div>Hours and Locations</div>
+              <div>Press Inquiries</div>
+              <div>Newegg Careers</div>
+              <div>Newsroom </div>
+              <div>Newegg Insider</div>
+              <div>Short Term Aliments</div>
+   
+          </div>
+          <div class="footerblock4">
+              <div class="footerhedding">TOOLS & RESOURCES</div>
+              <div>Sell on Newegg</div>
+              <div>For Your Business</div>
+              <div>Newegg Partner Services</div>
+              <div>Join our Influencer Network</div>
+             <div>Become an Affiliate</div>
+             <div>Site Map</div>
+             <div>Shop by Brand</div>
+          </div>
+        </div>  
+        <div class="footerFrame2">
+            <div>
+            <div> 
+              <div>
+                  <span>Newegg Global</span> <br>
+                  <span>International Shopping</span>
+              </div>
+              <div>
+                  <span>NeweggBusiness</span> <br>
+                  <span>For Business Needs</span>
+              </div>
+            </div>
+
+            <div>
+                <img src="https://c1.neweggimages.com/WebResource/Themes/Nest/buttons/btn_mobileSite.png" alt="">
+                <img src="https://c1.neweggimages.com/WebResource/Themes/Nest/buttons/btn_appStore.png" alt="">
+                <img src="https://c1.neweggimages.com/WebResource/Themes/Nest/buttons/btn_playStore.png" alt="">
+            </div>
+            </div>
+        </div>
+
+        <div class="footerFrame3">
+            <p>Terms & Conditions | Privacy Policy | Manage Cookie © 2000-2021 Newegg International Inc.  All rights reserved.</p>
+        </div>
+
+        <div class="footerFrame4">
+            <a class="fab fa-facebook-f social-follow-item-icon" target="_blank" href="https://www.facebook.com/Newegg"><span style="display:none">Facebook</span></a>
+            <a class="fab fa-twitter social-follow-item-icon" target="_blank" href="https://twitter.com/Newegg"><span style="display:none">Twitter</span></a>
+            <a class="fab fa-instagram social-follow-item-icon" target="_blank" href="https://www.instagram.com/newegg/"><span style="display:none">Instagram</span></a>
+            <a class="fab fa-linkedin social-follow-item-icon" target="_blank" href="https://www.linkedin.com/company/newegg-com"><span style="display:none">LinkedIn</span></a>
+            <a class="fab fa-pinterest social-follow-item-icon" target="_blank" href="https://www.pinterest.com/newegg/"><span style="display:none">Pinterest</span></a>
+            <a class="fab fa-youtube social-follow-item-icon" target="_blank" href="https://www.youtube.com/user/newegg"><span style="display:none">YouTube</span></a>
+            <a class="fab fa-twitch social-follow-item-icon" target="_blank" href="https://www.twitch.tv/newegg"><span style="display:none">Twitch</span></a>
+        </div>
+    </div>
+
+
+
+
+    <script src="showProductdetail.js"></script>
+    <script src="slider8.js"></script>
+</body>
+</html>
+
