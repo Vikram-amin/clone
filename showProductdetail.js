@@ -77,25 +77,25 @@ btn.addEventListener("click", function () {
 });
 btn.setAttribute("class", "addtocartButton");
 
+
+//==========================================================add to cart
 function addToCart(d) {
   // console.log(d);
   let cart = [];
-  cart = localStorage.getItem("Productcart");
+  cart = localStorage.getItem("cart");
   if (cart == null) {
     cart = [];
   } else {
-    cart = JSON.parse(localStorage.getItem("Productcart"));
+    cart = JSON.parse(localStorage.getItem("cart"));
   }
   cart.push(d);
-  localStorage.setItem("Productcart", JSON.stringify(cart));
+  localStorage.setItem("cart", JSON.stringify(cart));
 }
 
-
+//=====================================================quantity
  let count = 0;
-
  let addBtn = document.getElementById("plus");
  let minBtn = document.getElementById("minus");
-
 
  function increment() {
    count++;
@@ -109,7 +109,20 @@ function addToCart(d) {
       minBtn.removeEventListener("click", decrement); //stop
    }
  }
-
-
  addBtn.addEventListener("click", increment);
  minBtn.addEventListener("click", decrement);
+
+
+
+//  if (localStorage.getItem("cart") === null) {
+//    // at cart is null it will add []
+//    localStorage.setItem("cart", JSON.stringify([]));
+//  }
+
+//  function addToCart(p) {
+//    //console.log(p)
+//    let cart_data = JSON.parse(localStorage.getItem("cart"));
+//    cart_data.push(p);
+
+//    localStorage.setItem("cart", JSON.stringify(cart_data)); //updated cart data added to cart
+//  }

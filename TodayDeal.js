@@ -75,3 +75,27 @@ appendpro();
 function showdetail(el) {
   localStorage.setItem("prodetaails", JSON.stringify(el));
 }
+
+
+let popularProduct1 = document.getElementById("PopularFrame1").addEventListener("click", function () {
+   window.open("viewproduct.html");
+})
+
+let popularProduct2 = document.getElementById("PopularFrame2").addEventListener("click", function () {
+   window.open("viewproduct.html");
+})
+let popularProduct3 = document.getElementById("PopularFrame3").addEventListener("click", function () {
+   window.open("viewproduct.html");
+})
+let popularProduct4 = document.getElementById("PopularFrame4").addEventListener("click", function () {
+   window.open("viewproduct.html");
+})
+
+let popularProduct5 = document.getElementById("PopularFrame5").addEventListener("click", function () {
+   window.open("viewproduct.html");
+})
+
+let popularProduct6 = document.getElementById("PopularFrame6").addEventListener("click", function () {
+   window.open("viewproduct.html");
+})
+
