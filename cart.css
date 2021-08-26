@@ -1,0 +1,192 @@
+       
+        #parentHome #navbar{
+           width: 100wh;
+           height: 16vh;
+           padding: 0px;
+           margin: -8px;
+           background-color: blueviolet;  
+        }
+
+        #parentCart{
+            width: 95%;
+            display: flex;
+            margin: auto;
+        }
+
+        #cartcontainer{
+             display: flex;
+             flex-wrap: wrap;
+             padding: 10px;
+             width:95%;
+         }
+
+        #cartcontainer> div {
+            width: 100%;
+            height: 30vh;
+            display: flex;
+            padding: 15px;
+            border: 1px solid lightblue;
+        }
+
+         #cartcontainer > div >div{
+             padding: 15px;
+
+         }
+
+         #divimgcP img{
+             width: 150px;
+             height: 150px;
+         }
+
+         .cpname{
+             font-size: 18px !important;
+             color: black;
+             overflow: hidden;
+             padding: 0;
+             width: 100%;
+         }
+
+       
+
+         .carttop{
+             font-size: 25px;
+             font-family: 'Open Sans Condensed', sans-serif;
+             letter-spacing: 1px;
+             vertical-align: baseline;
+             color: #222;           
+             margin-left: 20px;
+             margin-top: 20px;
+         }
+
+         .imagnotification{
+             margin-left: 20px;
+             width: 93%;
+         }
+  
+
+        .divprice{
+             width: 40%;
+            
+        }
+
+        .divpara button{
+            margin: 10px;
+        }
+
+        .divprice button{
+            margin-left: 35px;
+        }
+
+        .shopparent{
+            width: 100%;
+            display: flex;
+        }
+
+         /* .shopparent > div{
+
+         } */
+
+         .summary{
+             width: 25%;
+             /* border: 2px solid orange; */
+           
+
+         }
+         .shop{
+               width: 75%;
+         }
+
+         .emailB {
+             display: flex;
+             margin-top: 30px;
+            
+             
+         }
+         .emailB button:first-child{
+             margin-left: 33%;
+             margin-right: 10px;
+              width: 100px;
+              height: 30px;
+              
+            
+         }
+           .emailB button:last-child{
+              width: 100px;
+              height: 30px;
+            
+         }
+
+         .summaryBox{
+            font-size: 18px;
+            font-family: 'Open Sans Condensed', sans-serif;
+            letter-spacing: 1px;
+            vertical-align: baseline;
+            color: #222;
+            font-weight: 700;
+            margin-left: 25px;
+            margin-top: 30px;
+         }
+
+         .itemsB{
+          width: 90%;
+          margin: auto;
+          font-size: 14px;
+          
+         }
+          .itemsB > div:nth-child(1){
+               display: flex;
+              justify-content: space-between;
+              margin: 10px;
+          }
+
+         .itemsB > div:nth-child(2){
+               display: flex;
+              justify-content: space-between;
+               margin: 10px;
+          }
+         .itemsB > div:nth-child(3){
+               display: flex;
+              justify-content: space-between;
+               margin: 10px;
+          }
+
+           /* .itemsB
+
+            .itemsB */
+
+            .paraBoxB{
+                width: 92%;
+                margin: auto;
+                margin-top: 50px;
+            
+            }
+
+            .cartfooter img{
+              width: 134%;
+              margin-top: 50px;
+            }
+            .promo{
+                width: 90%;
+                margin: auto;
+                border-top: 2px solid;
+                border-bottom: 2px solid;
+            }
+
+            .promo .appltbtn {
+              display: flex;
+              justify-content: space-between;
+               margin: 10px;
+              font-size: 16px;
+              font-family: 'Open Sans Condensed', sans-serif;
+              letter-spacing: 1px;
+              vertical-align: baseline;
+              color: #222;
+              font-weight: 700;
+              margin-left: 20px;
+              margin-top: 10px;
+             
+            }
+
+            .promo .appltbtn:hover{
+                color: blue;
+            }
