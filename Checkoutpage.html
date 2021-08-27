@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="checkoutpage.css">
+        <script src="https://kit.fontawesome.com/62c318d183.js" crossorigin="anonymous"></script>
+    <title>Check out page</title>
+</head>
+<body>
+
+     <div class="paytop">Checkout </div>  
+     <div id="checkContainer">
+         <div id="checkparent">
+             <div id="checkcolleft">
+                <div class="paytop">Shopping </div> 
+                <div id="shipBoxParent" >
+                 <h3>How would you like to get your order?</h3>
+                 <div>
+                <div id="shipBox" onclick="openForm()">
+                    <span>Ship to</span> 
+                    <span>Your Location</span>
+                    <span><i class="far fa-building"></i></span>
+                  
+                </div>
+                <div>
+                  <div id="addressRight">
+                    
+                  </div>
+                </div>
+                </div>
+                </div>
+
+
+
+             </div>
+             <div id="checkcolright">
+
+<div class="summary">
+  <div class="emailB">
+    <button><span><i class="fas fa-envelope"></i></span>EMAIL</button>
+     <button><span><i class="fas fa-print"></i></span>PRINT</button>
+  </div>
+  <p class="summaryBox">Summary</p>
+  <div class="itemsB">
+    <div><span>Item(s):</span><span id="ammount">₹ 0</span></div>
+    <div><span>Est. Delivery:</span><span>₹ 1500</span></div>
+    <div><span>Est. VAT: </span><span>₹ 1500</span></div>
+  </div>
+  <br>
+  <div class="promo">
+    <div class="appltbtn"><span>Apply Promo Code</span> <span><i class="fas fa-plus"></i></span></div>
+
+    <p><input type="text"  id="inpval"> <button onclick="sub()" id="submit">Apply</button></p>
+  </div>
+  <div>
+   <div id="total">
+     <div><span>Est. Total:</span> <span id="ammounttotal">₹ 0</span></div> 
+    </div>
+  </div>
+
+</div>
+
+
+             </div>
+         </div>
+     </div>
+
+
+     <div id="checkoutMain">
+      <div id="checkoutMainContainer">
+        <div id="checkoutDetails">
+          <div id="checkoutAccount">
+            <span id="AccountSerial" class="serialNumber"
+              ><i class="fas fa-check"></i
+            ></span>
+            <div id="Account_right">
+              <h3>Account</h3>
+              <!-- <p>To place your order now, log in to your existing account or sign up.</p>
+                        <div class="AccountButtons">
+                            <button id="login">
+                                <span>Have an account</span>
+                                Log In
+                            </button>
+                            <button id="signup">
+                                <span>New to Faasos?</span>
+                                Sign Up
+                            </button>
+                        </div> -->
+              <!-- <h4 id="userDetails">
+                Chiranjeev Thapliyal &nbsp; | &nbsp; 9643011147
+              </h4> -->
+            </div>
+          </div>
+          <div id="checkoutDelivery">
+            <span id="DeliverySerial" class="serialNumber">2</span>
+            <div id="DeliveryRight">
+              <h3>Delivery Address</h3>
+              <!-- <div class="addresses">
+                <div id="addNewAddress">
+                  <h3>Add New Address</h3>
+                  <button id="addNew" class="yellowBtn">Add New</button>
+                </div>
+                <div class="AddressCard">
+                  <div class="AddressCardType">
+                    <h3>Others</h3>
+                    <p>
+                      Plot No- 949, Top Floor, Shakti Khand 4 Near Rama
+                      International School Mirdard Marg,Deendayal Upadhyay Marg
+                      Area,New Delhi,Delhi,India New Delhi
+                    </p>
+                  </div>
+                  <button id="addNew" class="yellowBtn">Deliver Here</button>
+                </div>
+              </div> -->
+
+              <!-- When deliver here is clicked
+              <div id="FinalDeliveryAddress">
+                <strong>Others</strong>
+                <p>Plot No- 949, Top Floor, Shakti Khand 4</p>
+                <p>
+                  Near Rama International School Mirdard Marg,Deendayal Upadhyay
+                  Marg Area,New Delhi,Delhi,India New Delhi
+                </p>
+              </div> -->
+            </div>
+          </div>
+          <div id="checkoutPayment">
+            <span id="PaymentSerial" class="serialNumber">3</span>
+            <div id="PaymentRight">
+              <h3>Payment</h3>
+              <div id="PaymentDetails">
+                <ul id="PaymentOptions">
+                  <li id="selectGPay">
+                      ><img
+                        class="paymentLogo"
+                        src="../images/paymentLogo.svg"
+                        alt="" />
+                    >UPI
+                  </li>
+                  <li id="selectCOD" class="activePaymentOption">
+                    <img
+                      class="paymentLogo"
+                      src="../images/paymentLogo.svg"
+                      alt=""
+                    />COD
+                  </li>
+                </ul>
+                <div id="PaymentMode">
+                  <!-- <div id="GPay">
+                    <div id="GPayImage">
+                      <img
+                        src="https://assets.faasos.io/faasos_v2/gpayLogo.png"
+                        alt="google pay"
+                      />
+                      <span><i class="fas fa-check-circle"></i></span>
+                    </div>
+                    <form>
+                      <input type="text" id="gpayNumber" value="9643011147" />
+                      <label for="gpayNumber">Phone Number</label>
+                      <span><i class="fas fa-check"></i></span>
+                    </form>
+                    <button id="payButton">Pay ₹ 319</button>
+                  </div> -->
+                  <div id="COD">
+                    <div id="CODInfo">
+                      <img src="https://assets.faasos.io/faasos_v2/COD.svg" alt="">
+                      <h3>Cash On Delivery</h3>
+                      <p>Online payment recommended for better hand hygiene</p>
+                    </div>
+                    <button id="payButton">Pay ₹ 319</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CheckoutItems Details -->
+        <div id="checkout">
+          <div id="allCartItems">
+            <h2>Order Summary</h2>
+            <ul id="cartList">
+              <!-- <li>
+                <div class="cartItem">
+                  <div class="cartItemDetails">
+                    <span class="category"
+                      ><img src="../images/vegLogo.svg" alt=""
+                    /></span>
+                    <div>
+                      <p class="cartItemName">2 Signature Veg Wraps at 289</p>
+                      <p class="cartItemAddon">
+                        Mexican Potato Salsa Wrap (Default Option),Mexican
+                        Potato Salsa Wrap (Default Option),
+                      </p>
+                    </div>
+                  </div>
+                  <div class="cartItemCount">
+                    <button id="decrease">-</button>
+                    <span>1</span>
+                    <button id="increase">+</button>
+                  </div>
+                  <div class="cartItemAmount">
+                    <span>₹ 289</span>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="cartItem">
+                  <div class="cartItemDetails">
+                    <span class="category"
+                      ><img src="../images/vegLogo.svg" alt=""
+                    /></span>
+                    <div>
+                      <p class="cartItemName">2 Signature Veg Wraps at 289</p>
+                      <p class="cartItemAddon">
+                        Mexican Potato Salsa Wrap (Default Option),Mexican
+                        Potato Salsa Wrap (Default Option),
+                      </p>
+                    </div>
+                  </div>
+                  <div class="cartItemCount">
+                    <button id="decrease">-</button>
+                    <span>1</span>
+                    <button id="increase">+</button>
+                  </div>
+                  <div class="cartItemAmount">
+                    <span>₹ 289</span>
+                  </div>
+                </div>
+              </li> -->
+            </ul>
+            
+        </div>
+
+        <div id="grandTotalDiv">
+          <div>
+            <span>Cart Amount</span>
+            <span id="cartTotal">₹ 2004</span>
+          </div>
+          <div>
+            <span>Tax</span>
+            <span>₹ 97</span>
+          </div>
+          <div>
+            <span>Delivery</span>
+            <span class="greenText">Free</span>
+          </div>
+          <hr>
+          <div>
+            <span>Grand Total</span>
+            <span id="finalAmount">₹ 2033</span>
+          </div>
+        </div>
+
+      </div>
+    </div>     
+
+
+</body>
+<script src="Checkoutpage.js"></script>
+</html>

@@ -1,0 +1,239 @@
+body {
+    font-family: Whitney,Helvetica,Arial,sans-serif!important;
+}
+
+/* ==================================================================cart */
+
+
+  .summary{
+             width: 95%;
+             padding-right: 10px;
+             margin-top: 15px;
+             /* border: 2px solid orange; */
+           
+
+         }
+         .shop{
+               width: 75%;
+         }
+
+         .emailB {
+             display: flex;
+             margin-top: 30px;
+            
+             
+         }
+         .emailB button:first-child{
+             margin-left: 33%;
+             margin-right: 10px;
+              width: 100px;
+              height: 30px;
+              
+            
+         }
+           .emailB button:last-child{
+              width: 100px;
+              height: 30px;
+            
+         }
+
+         .summaryBox{
+            font-size: 18px;
+            font-family: 'Open Sans Condensed', sans-serif;
+            letter-spacing: 1px;
+            vertical-align: baseline;
+            color: #222;
+            font-weight: 700;
+            margin-left: 25px;
+            margin-top: 30px;
+          
+         }
+
+         .itemsB{
+          width: 90%;
+          margin: auto;
+          font-size: 14px;
+          
+         }
+          .itemsB > div:nth-child(1){
+               display: flex;
+              justify-content: space-between;
+              margin: 10px;
+          }
+
+         .itemsB > div:nth-child(2){
+               display: flex;
+              justify-content: space-between;
+               margin: 10px;
+          }
+         .itemsB > div:nth-child(3){
+               display: flex;
+              justify-content: space-between;
+               margin: 10px;
+          }
+
+           /* .itemsB
+
+            .itemsB */
+
+            .paraBoxB{
+                width: 92%;
+                margin: auto;
+                margin-top: 50px;
+            
+            }
+
+            .cartfooter img{
+              width: 134%;
+              margin-top: 50px;
+            }
+            .promo{
+                width: 90%;
+                margin: auto;
+                margin-bottom: 30px;
+                border-top: 2px solid;
+                border-bottom: 2px solid;
+            }
+
+            .promo .appltbtn {
+              display: flex;
+              justify-content: space-between;
+               margin: 10px;
+              font-size: 16px;
+              font-family: 'Open Sans Condensed', sans-serif;
+              letter-spacing: 1px;
+              vertical-align: baseline;
+              color: #222;
+              font-weight: 700;
+              margin-left: 20px;
+              margin-top: 10px;
+             
+            }
+
+            .promo .appltbtn:hover{
+                color: blue;
+            }
+
+            .promo input{
+                width: 60%;
+                height: 25px;
+            }
+
+            .promo button{
+                width: 30%;
+                height: 25px;
+                font-size: 14px;
+                font-weight: 700;
+            }
+
+
+            #total + div{
+                display: flex;
+                
+            }
+
+            #total span{
+                justify-content: space-between;
+            }
+
+            #total > div:nth-child(1){
+               display: flex;
+              justify-content: space-between;
+              margin: 20px;
+              font-size: 20px;
+          }
+
+          #total button{
+              width: 95%;
+              margin: auto;
+              background-color: #F39834;
+              border:1px solid #d60;
+              height: 30px;
+              margin-left: 10px;
+              font-weight: 700;
+              
+          }
+
+
+
+
+/* ==================================================================cart */
+     .paytop{
+             font-size: 25px;
+             font-family: 'Open Sans Condensed', sans-serif;
+             letter-spacing: 1px;
+             vertical-align: baseline;
+             color: #222;           
+             margin-left: 20px;
+             margin-top: 20px;
+         }
+
+        #checkparent{
+            width: 100%;
+            display: flex;
+        }
+
+        #checkcolleft{
+            width: 75%;
+            border: 2px solid red;
+        }
+        #checkcolright{
+            width: 25%;
+            border: 2px solid green
+        }
+
+        #shipBox{
+            width: 200px;
+            height: 40px;
+            border: 2px solid orange;
+            padding: 20px;
+            position: relative;
+        }
+       #shipBox >span:last-child{
+           font-size: 30px;
+            position: absolute;
+            top: 30%;
+       }
+
+       #shipBox >span:nth-child(1){
+         font-size: 18px;
+         display: block;
+       }
+
+         #shipBox >span:nth-child(2){
+         font-size: 18px ;
+         color:orange;
+         font-weight: 700;
+         padding-top: 20px;
+       }
+
+         #shipBox >span:nth-child(3){
+          padding-left: 50px;
+       }
+
+        #shipBoxParent{
+            margin-left: 8%;
+           
+        }
+        
+        #shipBoxParent h3{
+            font-size: 20px;
+
+        }
+
+        #shipBoxParent > div{
+            display: flex;
+
+        }
+
+        #addressRight{
+            width: 60%;
+            height: 40vh;
+            border: 2px solid blue;
+            margin-left: 200px;
+        }
+
+
+
+/* 
+//======================================================================adress */

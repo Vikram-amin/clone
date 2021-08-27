@@ -58,7 +58,8 @@ function appenditem(d) {
   let btn = document.createElement("button");
          btn.textContent = "Add To Cart";
          btn.addEventListener("click", function () {
-          window.open("cart.html");
+          //  window.open("cart.html");
+             window.location.href = "cart.html";
          addToCart(d);
   });
   btn.setAttribute("class", "addtocartButton");

@@ -1,5 +1,144 @@
 
 
+/* <----------NAVBAR--------------------------> */
+
+#container {
+  max-width: 100wh;
+}
+
+#parentHome #navbar {
+  width: 100wh;
+  height: 16vh;
+  padding: 0px;
+  margin: -8px;
+}
+
+#navbar {
+  background-color: #02283a;
+  display: flex;
+  align-items: center;
+  padding: 40px;
+}
+
+.menuIcon {
+  color: #fff;
+  font-size: 1.9em;
+  margin-left: 20px;
+}
+
+#logo {
+  height: 62.3906px;
+  width: 126px;
+  margin-left: 20px;
+}
+
+#searchSection {
+  margin-left: 20px;
+}
+
+#searchbarContainer {
+  position: relative;
+}
+
+#searchbarContainer > input {
+  padding: 8px;
+  border: none;
+  width: 780px;
+  outline: none;
+  font-size: 17px;
+  border-radius: 2px;
+}
+
+#searchButton {
+  cursor: pointer;
+  color: #707070;
+  font-size: 18px;
+  border-left: 1px solid #f1f1f1;
+  background: transparent;
+  width: 48px;
+  height: 36px;
+  position: absolute;
+  border: none;
+  border-left: 1px solid #f1f1f1;
+  right: 0;
+  top: 0;
+}
+
+#searchbarLinksContainer {
+  display: flex;
+  margin-top: 10px;
+}
+
+#searchbarLinksContainer > a {
+  color: #fa9d28;
+  font-weight: 700;
+  margin-right: 10px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+}
+
+#profileSection {
+  margin-left: 20px;
+}
+
+.profileIcon {
+  font-size: 32px;
+  color: white;
+}
+
+#profileTextContainer {
+  margin-left: 10px;
+}
+
+#profileHeading {
+  color: rgb(204, 204, 204);
+  margin-right: 10px;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+}
+
+#profileName {
+  color: white;
+  margin-right: 10px;
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+}
+
+.cartIcon {
+  margin-left: 40px;
+  font-size: 27px;
+  color: white;
+}
+
+#accountBar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+#accountBar > div {
+  display: flex;
+}
+
+#supportBar {
+  display: flex;
+  margin-top: 10px;
+}
+
+#supportBar > a {
+  color: rgb(204, 204, 204);
+  margin-right: 10px;
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+}
+
+/* <----------NAVBAR--------------------------> */   
+     
+
+
 #productgrid p {
   margin: 0;
   line-height: 1.5;
@@ -16,6 +155,8 @@
 .lapviewimg{
   height: 40vh;
   width: 100%;
+ 
+
 }
 #topview{
   /* border: 2px solid red; */

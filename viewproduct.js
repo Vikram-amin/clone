@@ -105,7 +105,7 @@ function appendpro(d) {
     mainDiv.append(div);
 
     div.addEventListener("click", function () {
-      window.open("showProductdetails.html");
+        window.location.href = "showProductdetails.html";
       showdetail(el);
     });
   });
@@ -180,10 +180,7 @@ let forth = document.getElementById("80000-100000");
 forth.addEventListener("click", function () {
   pricehunt(forth.value);
 });
-// let fifth = document.getElementById("463-1728");
-// fifth.addEventListener("click", function () {
-//   pricehunt(fifth.value);
-// });
+
 
 //sort by price
 function pricehunt(el) {

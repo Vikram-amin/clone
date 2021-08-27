@@ -68,7 +68,8 @@ function appendpro() {
     //     window.location.href = "producdetail.html";
     //   });
     div.addEventListener("click", function () {
-      window.open("showProductdetails.html");
+      // window.open("showProductdetails.html");
+      window.location.href = "showProductdetails.html";
       showdetail(el);
     });
   });

@@ -65,7 +65,7 @@ function appendpro() {
     //     window.location.href = "producdetail.html";
     //   });
     div.addEventListener("click", function () {
-      window.open("showProductdetails.html");
+        window.location.href = "showProductdetails.html";
       showdetail(el);
     });
   });
@@ -78,24 +78,24 @@ function showdetail(el) {
 
 
 let popularProduct1 = document.getElementById("PopularFrame1").addEventListener("click", function () {
-   window.open("viewproduct.html");
+   window.location.href = "viewproduct.html";
 })
 
 let popularProduct2 = document.getElementById("PopularFrame2").addEventListener("click", function () {
-   window.open("viewproduct.html");
+  window.location.href = "viewproduct.html";
 })
 let popularProduct3 = document.getElementById("PopularFrame3").addEventListener("click", function () {
-   window.open("viewproduct.html");
+   window.location.href = "viewproduct.html";
 })
 let popularProduct4 = document.getElementById("PopularFrame4").addEventListener("click", function () {
-   window.open("viewproduct.html");
+   window.location.href = "viewproduct.html";
 })
 
 let popularProduct5 = document.getElementById("PopularFrame5").addEventListener("click", function () {
-   window.open("viewproduct.html");
+   window.location.href = "viewproduct.html";
 })
 
 let popularProduct6 = document.getElementById("PopularFrame6").addEventListener("click", function () {
-   window.open("viewproduct.html");
+   window.location.href = "viewproduct.html";
 })
 
