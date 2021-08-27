@@ -32,6 +32,7 @@ function appendpro() {
 
     let btn3C = document.createElement("button");
     btn3C.innerHTML = `<span<i class="far fa-trash-alt"></i></i></span> REMOVE`;
+    btn3C.setAttribute("id","btnRemove")
 
    
 
@@ -43,11 +44,9 @@ function appendpro() {
     divimg.append(img);
     divPara.append(p_name, btn1C, btn2C);
     div.append(divimg, divPara, pricediv);
+  
     mainDiv.append(div);
 
-    // btn3C.addEventListener("click", removep())
-    
-   
     //   img.addEventListener("click", function () {
     //     window.location.href = "producdetail.html";
     //   });
@@ -85,3 +84,64 @@ cartsum();
 //   }
 // }
 // removep();
+
+
+// let removeItem = document.getElementById("btnRemove");
+// console.log(removeItem)
+
+
+
+ function cartcount() {
+  let data = JSON.parse(localStorage.getItem("cart"));
+  let sum = 0;
+  for (let i = 0; i < data.length; i++) {
+    sum = i+1;
+    console.log(data[i].name.length)
+  }
+  document.getElementById("count").innerHTML = `(${sum})`;
+}
+cartcount();
+
+
+ //amount
+ function cartsum() {
+  let data = JSON.parse(localStorage.getItem("cart"));
+  let sum = 0;
+  for (let i = 0; i < data.length; i++) {
+    sum += Number(data[i].price);
+  }
+   document.getElementById("ammount").innerHTML = "₹  " + sum;
+
+     let amt = document.getElementById("ammount").innerHTML;
+     amount = Number(amt.split(" ")[2]);
+     let sum1 = amount + 3000;
+     console.log(sum1);
+     document.getElementById("ammounttotal").innerHTML = "₹  " + sum1;
+}
+cartsum();
+
+
+function sub() {
+  let amt = document.getElementById("ammount")
+  let promo = document.getElementById('inpval').value;
+  if (promo == "masai30") {
+    let x = document.getElementById("ammount").innerHTML
+    console.log(x)//for amoubt to discount
+    xnum = Number(x.split(" ")[2])
+    let discount = Math.floor(xnum * (30 / 100))
+    document.getElementById("ammount").innerHTML = "₹  " + (xnum - discount);
+
+   let amt = document.getElementById("ammount").innerHTML;
+   amount = Number(amt.split(" ")[2]);
+   let sum1 = amount + 3000;
+   console.log(sum1);
+   document.getElementById("ammounttotal").innerHTML = "₹  " + sum1;
+ 
+  } else {
+    alert("Promo Code not Valid")
+  }
+}
+
+function submit() {
+  window.location.href = "Checkoutpage.html";
+}

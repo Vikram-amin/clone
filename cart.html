@@ -9,15 +9,83 @@
     <link rel="stylesheet" href="cart.css">
 </head>
 <body>
+
+
+  <!-- navbar -->
+<div id="container">
+      <div id="parentHome">
+   <div id="navbar">
+          <i class="fas fa-bars menuIcon"></i>
+          <div id="logoContainer">
+            <a
+              href="https://www.newegg.com/"
+              title="Newegg.com - Computer Parts, Laptops, Electronics, HDTVs, Digital Cameras and More!"
+              id="logoLink"
+              ><img
+                src="https://c1.neweggimages.com/WebResource/Themes/Nest/logos/logo_424x210.png"
+                alt="Newegg"
+                id="logo"
+            /></a>
+          </div>
+      <div id="searchSection">
+            <div id="searchbarContainer">
+              <!-- <select>
+                <option value="all">All</option>
+                <option value="automotiveParts">Automotive Parts</option>
+              </select> -->
+              <input type="text" placeholder="Keywords, Model # or Item #" />
+              <button id="searchButton" class="fas fa-search"></button>
+            </div>
+            <div id="searchbarLinksContainer">
+              <a>Elite Deals</a>
+              <a>Discovery Zone</a>
+              <a>PC Builder</a>
+              <a>Best Sellers</a>
+              <a>Auto Deals</a>
+              <a>Elite Deals</a>
+              <a>Newegg Gallery</a>
+            </div>
+          </div>
+          <div id="profileSection">
+            <div id="accountBar">
+              <div>
+                <i
+                  class="fas fa-user-circle profileIcon"
+                  aria-label="icon of my account"
+                ></i>
+                <div id="profileTextContainer">
+                  <div id="profileHeading">Welcome</div>
+                  <div id="profileName">Vikram</div>
+                </div>
+              </div>
+              <i
+                class="fas fa-shopping-cart profileIcon cartIcon"
+                aria-label="icon of shopping cart"
+              ></i>
+            </div>
+            <div id="supportBar">
+              <a>Newegg Business</a>
+              <a>Feedback</a>
+              <a>Help Center</a>
+            </div>
+          </div>
+        </div>
+ </div>
+</div>
+
+</div>
+
+
+  <!-- navbar -->
     
-  <div id="parentHome">
+  <!-- <div id="parentHome">
   <div id="navbar"></div>
-  </div>
+  </div> -->
 
 
 <div class="shopparent">
   <div class="shop">
-   <div class="carttop">Shopping Cart </div>   
+    <p class="summaryBox">Shopping Cart <span id="count"></span></p>
    <img class="imagnotification" src="Images\impnote.PNG" alt="">
   
    <div id="parentCart">
@@ -34,16 +102,21 @@
   </div>
   <p class="summaryBox">Summary</p>
   <div class="itemsB">
-    <div><span>Item(s):</span><span>₹ 0</span></div>
+    <div><span>Item(s):</span><span id="ammount">₹ 0</span></div>
     <div><span>Est. Delivery:</span><span>₹ 1500</span></div>
     <div><span>Est. VAT: </span><span>₹ 1500</span></div>
   </div>
   <br>
   <div class="promo">
     <div class="appltbtn"><span>Apply Promo Code</span> <span><i class="fas fa-plus"></i></span></div>
+
+    <p><input type="text"  id="inpval"> <button onclick="sub()" id="submit">Apply</button></p>
   </div>
   <div>
-
+   <div id="total">
+     <div><span>Est. Total:</span> <span id="ammounttotal">₹ 0</span></div> 
+      <button onclick="submit()">SECURE CHECKOUT</button>
+    </div>
   </div>
 
 </div>
