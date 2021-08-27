@@ -6,13 +6,85 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="checkoutpage.css">
         <script src="https://kit.fontawesome.com/62c318d183.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="navbar.css">
     <title>Check out page</title>
 </head>
 <body>
 
+  
+
+  <!-- navbar -->
+<div id="container">
+      <div id="parentHome">
+   <div id="navbar">
+          <i class="fas fa-bars menuIcon"></i>
+          <div id="logoContainer">
+            <a
+              href="https://www.newegg.com/"
+              title="Newegg.com - Computer Parts, Laptops, Electronics, HDTVs, Digital Cameras and More!"
+              id="logoLink"
+              ><img
+                src="https://c1.neweggimages.com/WebResource/Themes/Nest/logos/logo_424x210.png"
+                alt="Newegg"
+                id="logo"
+            /></a>
+          </div>
+      <div id="searchSection">
+            <div id="searchbarContainer">
+              <!-- <select>
+                <option value="all">All</option>
+                <option value="automotiveParts">Automotive Parts</option>
+              </select> -->
+              <input type="text" placeholder="Keywords, Model # or Item #" />
+              <button id="searchButton" class="fas fa-search"></button>
+            </div>
+            <div id="searchbarLinksContainer">
+              <a>Elite Deals</a>
+              <a>Discovery Zone</a>
+              <a>PC Builder</a>
+              <a>Best Sellers</a>
+              <a>Auto Deals</a>
+              <a>Elite Deals</a>
+              <a>Newegg Gallery</a>
+            </div>
+          </div>
+          <div id="profileSection">
+            <div id="accountBar">
+              <div>
+                <i
+                  class="fas fa-user-circle profileIcon"
+                  aria-label="icon of my account"
+                ></i>
+                <div id="profileTextContainer">
+                  <div id="profileHeading">Welcome</div>
+                  <div id="profileName">Vikram</div>
+                </div>
+              </div>
+              <i
+                class="fas fa-shopping-cart profileIcon cartIcon"
+                aria-label="icon of shopping cart"
+              ></i>
+            </div>
+            <div id="supportBar">
+              <a>Newegg Business</a>
+              <a>Feedback</a>
+              <a>Help Center</a>
+            </div>
+          </div>
+        </div>
+ </div>
+</div>
+
+</div>
+
+
+  <!-- navbar -->
+
+
      <div class="paytop">Checkout </div>  
      <div id="checkContainer">
          <div id="checkparent">
+       
              <div id="checkcolleft">
                 <div class="paytop">Shopping </div> 
                 <div id="shipBoxParent" >
@@ -25,7 +97,29 @@
                   
                 </div>
                 <div>
-                  <div id="addressRight">
+                  <div id="addressRight">   
+                      <div class="col-50">
+                        <h3>Billing Address</h3>
+                        <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Name">
+                        <label for="email"><i class="fa fa-envelope"></i> Email</label>
+                        <input type="text" id="email" name="email" placeholder="email@example.com">
+                        <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+                        <input type="text" id="adr" name="address" placeholder="you address">
+                        <label for="city"><i class="fa fa-institution"></i> City</label>
+                        <input type="text" id="city" name="city" placeholder="Udupi">
+
+                        <div class="row">
+                            <div class="col-50">
+                                <label for="state">State</label>
+                                <input type="text" id="state" name="state" placeholder="NY">
+                            </div>
+                            <div class="col-50">
+                                <label for="zip">Zip</label>
+                                <input type="text" id="zip" name="zip" placeholder="10001">
+                            </div>
+                        </div>
+                    </div>
                     
                   </div>
                 </div>
@@ -33,9 +127,56 @@
                 </div>
 
 
-
+                <div id="shipBoxParent" >
+                 <h3>How do you want to pay?</h3>
+                 <div>
+                <div id="shipBox">
+                    <span>Credit /</span> 
+                    <span>Debit card</span>
+                    <span><i class="fab fa-cc-visa"></i></span>
+                  
+                </div>
+                <div>
+                  <div id="payRight"> 
+                       <div class="col-50">
+                        <h3>Payment</h3>
+                        <label for="cname">Name on Card</label>
+                        <input type="text" id="cname" name="cardname" placeholder="Vikram">
+                        <label for="ccnum">Credit card number</label>
+                        <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+                        <label for="expmonth">Exp Month</label>
+                        <input type="text" id="expmonth" name="expmonth" placeholder="September">
+                        <div class="row">
+                            <div class="col-50">
+                                <label for="expyear">Exp Year</label>
+                                <input type="text" id="expyear" name="expyear" placeholder="2018">
+                            </div>
+                            <div class="col-50">
+                                <label for="cvv">CVV</label>
+                                <input type="text" id="cvv" name="cvv" placeholder="352">
+                            </div>
+                        </div>
+                          <label>
+                    <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
+                </label>
+                <input type="button" id="donechek" value="Continue to checkout" class="btn">
+                    </div>
              </div>
-             <div id="checkcolright">
+              </div>
+                </div>
+                </div>
+                </div>
+                
+                   
+             
+               
+
+
+
+
+
+
+ <div id="checkcolright">
 
 <div class="summary">
   <div class="emailB">
@@ -59,203 +200,9 @@
      <div><span>Est. Total:</span> <span id="ammounttotal">₹ 0</span></div> 
     </div>
   </div>
-
 </div>
-
-
-             </div>
-         </div>
-     </div>
-
-
-     <div id="checkoutMain">
-      <div id="checkoutMainContainer">
-        <div id="checkoutDetails">
-          <div id="checkoutAccount">
-            <span id="AccountSerial" class="serialNumber"
-              ><i class="fas fa-check"></i
-            ></span>
-            <div id="Account_right">
-              <h3>Account</h3>
-              <!-- <p>To place your order now, log in to your existing account or sign up.</p>
-                        <div class="AccountButtons">
-                            <button id="login">
-                                <span>Have an account</span>
-                                Log In
-                            </button>
-                            <button id="signup">
-                                <span>New to Faasos?</span>
-                                Sign Up
-                            </button>
-                        </div> -->
-              <!-- <h4 id="userDetails">
-                Chiranjeev Thapliyal &nbsp; | &nbsp; 9643011147
-              </h4> -->
-            </div>
-          </div>
-          <div id="checkoutDelivery">
-            <span id="DeliverySerial" class="serialNumber">2</span>
-            <div id="DeliveryRight">
-              <h3>Delivery Address</h3>
-              <!-- <div class="addresses">
-                <div id="addNewAddress">
-                  <h3>Add New Address</h3>
-                  <button id="addNew" class="yellowBtn">Add New</button>
-                </div>
-                <div class="AddressCard">
-                  <div class="AddressCardType">
-                    <h3>Others</h3>
-                    <p>
-                      Plot No- 949, Top Floor, Shakti Khand 4 Near Rama
-                      International School Mirdard Marg,Deendayal Upadhyay Marg
-                      Area,New Delhi,Delhi,India New Delhi
-                    </p>
-                  </div>
-                  <button id="addNew" class="yellowBtn">Deliver Here</button>
-                </div>
-              </div> -->
-
-              <!-- When deliver here is clicked
-              <div id="FinalDeliveryAddress">
-                <strong>Others</strong>
-                <p>Plot No- 949, Top Floor, Shakti Khand 4</p>
-                <p>
-                  Near Rama International School Mirdard Marg,Deendayal Upadhyay
-                  Marg Area,New Delhi,Delhi,India New Delhi
-                </p>
-              </div> -->
-            </div>
-          </div>
-          <div id="checkoutPayment">
-            <span id="PaymentSerial" class="serialNumber">3</span>
-            <div id="PaymentRight">
-              <h3>Payment</h3>
-              <div id="PaymentDetails">
-                <ul id="PaymentOptions">
-                  <li id="selectGPay">
-                      ><img
-                        class="paymentLogo"
-                        src="../images/paymentLogo.svg"
-                        alt="" />
-                    >UPI
-                  </li>
-                  <li id="selectCOD" class="activePaymentOption">
-                    <img
-                      class="paymentLogo"
-                      src="../images/paymentLogo.svg"
-                      alt=""
-                    />COD
-                  </li>
-                </ul>
-                <div id="PaymentMode">
-                  <!-- <div id="GPay">
-                    <div id="GPayImage">
-                      <img
-                        src="https://assets.faasos.io/faasos_v2/gpayLogo.png"
-                        alt="google pay"
-                      />
-                      <span><i class="fas fa-check-circle"></i></span>
-                    </div>
-                    <form>
-                      <input type="text" id="gpayNumber" value="9643011147" />
-                      <label for="gpayNumber">Phone Number</label>
-                      <span><i class="fas fa-check"></i></span>
-                    </form>
-                    <button id="payButton">Pay ₹ 319</button>
-                  </div> -->
-                  <div id="COD">
-                    <div id="CODInfo">
-                      <img src="https://assets.faasos.io/faasos_v2/COD.svg" alt="">
-                      <h3>Cash On Delivery</h3>
-                      <p>Online payment recommended for better hand hygiene</p>
-                    </div>
-                    <button id="payButton">Pay ₹ 319</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- CheckoutItems Details -->
-        <div id="checkout">
-          <div id="allCartItems">
-            <h2>Order Summary</h2>
-            <ul id="cartList">
-              <!-- <li>
-                <div class="cartItem">
-                  <div class="cartItemDetails">
-                    <span class="category"
-                      ><img src="../images/vegLogo.svg" alt=""
-                    /></span>
-                    <div>
-                      <p class="cartItemName">2 Signature Veg Wraps at 289</p>
-                      <p class="cartItemAddon">
-                        Mexican Potato Salsa Wrap (Default Option),Mexican
-                        Potato Salsa Wrap (Default Option),
-                      </p>
-                    </div>
-                  </div>
-                  <div class="cartItemCount">
-                    <button id="decrease">-</button>
-                    <span>1</span>
-                    <button id="increase">+</button>
-                  </div>
-                  <div class="cartItemAmount">
-                    <span>₹ 289</span>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <div class="cartItem">
-                  <div class="cartItemDetails">
-                    <span class="category"
-                      ><img src="../images/vegLogo.svg" alt=""
-                    /></span>
-                    <div>
-                      <p class="cartItemName">2 Signature Veg Wraps at 289</p>
-                      <p class="cartItemAddon">
-                        Mexican Potato Salsa Wrap (Default Option),Mexican
-                        Potato Salsa Wrap (Default Option),
-                      </p>
-                    </div>
-                  </div>
-                  <div class="cartItemCount">
-                    <button id="decrease">-</button>
-                    <span>1</span>
-                    <button id="increase">+</button>
-                  </div>
-                  <div class="cartItemAmount">
-                    <span>₹ 289</span>
-                  </div>
-                </div>
-              </li> -->
-            </ul>
-            
-        </div>
-
-        <div id="grandTotalDiv">
-          <div>
-            <span>Cart Amount</span>
-            <span id="cartTotal">₹ 2004</span>
-          </div>
-          <div>
-            <span>Tax</span>
-            <span>₹ 97</span>
-          </div>
-          <div>
-            <span>Delivery</span>
-            <span class="greenText">Free</span>
-          </div>
-          <hr>
-          <div>
-            <span>Grand Total</span>
-            <span id="finalAmount">₹ 2033</span>
-          </div>
-        </div>
-
-      </div>
-    </div>     
+</div>     
+</div>  
 
 
 </body>
