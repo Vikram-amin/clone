@@ -7,7 +7,7 @@
 }
 
 #parentHome #navbar {
-  width: 100wh;
+  width: 100wh;   
   height: 16vh;
   padding: 0px;
   margin: -8px;
@@ -164,7 +164,7 @@
 
 #popup {
   position: absolute;
-  left: 16vw;
+  left: 15vw;
   background-color: white;
   display: flex;
   top: 0;

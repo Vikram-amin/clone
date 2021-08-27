@@ -116,7 +116,9 @@ cartcount();
      amount = Number(amt.split(" ")[2]);
      let sum1 = amount + 3000;
      console.log(sum1);
-     document.getElementById("ammounttotal").innerHTML = "₹  " + sum1;
+   document.getElementById("ammounttotal").innerHTML = "₹  " + sum1;
+   localStorage.setItem("cartsum1", JSON.stringify(sum));
+   localStorage.setItem("cartsum2", JSON.stringify(sum1));
 }
 cartsum();
 
@@ -129,13 +131,17 @@ function sub() {
     console.log(x)//for amoubt to discount
     xnum = Number(x.split(" ")[2])
     let discount = Math.floor(xnum * (30 / 100))
-    document.getElementById("ammount").innerHTML = "₹  " + (xnum - discount);
+    let sum=(xnum - discount)
+    document.getElementById("ammount").innerHTML = "₹  " + sum;
 
    let amt = document.getElementById("ammount").innerHTML;
    amount = Number(amt.split(" ")[2]);
    let sum1 = amount + 3000;
    console.log(sum1);
-   document.getElementById("ammounttotal").innerHTML = "₹  " + sum1;
+    document.getElementById("ammounttotal").innerHTML = "₹  " + sum1;
+    
+     localStorage.setItem("cartsum1", JSON.stringify(sum));
+     localStorage.setItem("cartsum2", JSON.stringify(sum1));
  
   } else {
     alert("Promo Code not Valid")

@@ -133,13 +133,22 @@
         }
         #btn1{
             background-color: #F39834;
-            border: 0.1px solid rgb(196, 74, 18);
+             border:1px solid #d60;
            
         }
      
          #btn2{
              border: 0.1px solid lightgray;
 
+         }
+
+         #btn2:hover{
+             border: 1px solid blue;
+             color: blue;
+         }
+
+         #btn1:hover{
+             background-color: #d60;
          }
         #btn1,#btn2{
             color: #222;
@@ -214,10 +223,10 @@
             <div id="rightBox">
                 <div>
                 <label for="signin">Sign In</label>
-                <input type="text" placeholder="Email Adress">
-                <button id="btn1">SIGN IN</button>
+                <input type="text" id="emailL" placeholder="Email Adress">
+                <button id="btn1" onclick="checkcredentials()">SIGN IN</button>
                 <button id="btn2">SEND ONE TIME-CODE</button>
-                <P>New to Newegg? <a href="SignUp.html">Sign Up</a></P>
+                <P>New to Newegg? <a href="signup.html">Sign Up</a></P>
                 <span>Terms & Conditions | Privacy Policy <br> Manage Cookie <br> © 2000-2021 Newegg Inc. All rights reserved</span>
                 </div>
                   <div class="captcha" > <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/RecaptchaLogo.svg/1200px-RecaptchaLogo.svg.png" alt="captcha"></div>
@@ -230,3 +239,59 @@
     </div>
 </body>
 </html>
+
+<script>
+
+function checkcredentials() {
+
+  let email = document.getElementById("emailL").value;
+  
+  let arr;
+  arr = JSON.parse(localStorage.getItem("details"));
+
+  for (var i = 0; i < arr.length; i++) {
+    if (arr[i].email === email) {
+      window.location.href = "home.html"
+      return;
+    }
+  }
+  let div = document.createElement("div");
+  div.innerHTML = "Invalid email"
+  let alert = document.getElementById("alert");
+  alert.innerHTML = null;
+  alert.append(div);
+
+
+
+}
+
+
+
+function checkcredentials() { //11
+    // prvent default behavior of input submit
+
+   let email = document.getElementById("emailL").value;
+    
+    
+    // 2- check the data
+  const admins = JSON.parse(localStorage.getItem('details'));
+ // console.log(admins)
+
+    for (let i = 0; i < admins.length; i++) { //check admin username and password is correct
+        let u = admins[i].email;
+      
+       // console.log(u,p)
+
+        if (email) { //check input value
+          
+          window.location.href='home.html'
+            break;
+        }else {
+            alert("invalid Credentials")
+        }
+    }
+}
+
+
+
+</script>

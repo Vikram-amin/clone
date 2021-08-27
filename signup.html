@@ -177,12 +177,12 @@
       <span class="checkboxtitle">Subscribe for exclusive e-mail offers and discounts</span>
       </div>
      <div class="form-note">By creating an account, you agree to Newegg’s  <br>  Privacy Notice and.</div>
-     
-    <button onclick="registerHere()">SIGN UP</button>
+      </form>
+    <button onclick="storeDetails()">SIGN UP</button>
 
     <p id="t1">Have an account? <a href="login.html">Sign In</a></p>   <br>
     <p id="t2"> Terms & Conditions | Privacy Policy <br> Manage Cookie <br> © 2000-2021 Newegg Inc. All rights reserved</p>
-    </form>
+   
 
      <div class="captchaS" > <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/RecaptchaLogo.svg/1200px-RecaptchaLogo.svg.png" alt="captcha"></div>
 
@@ -195,9 +195,9 @@
 
 <script>
 
+function storeDetails() {
 let data_div=document.getElementById('signupData')
 
-function registerHere(){
     let form=document.getElementById("myformsignup");
     let Firstname=form.Firstname.value;
     let Lastname=form.Lastname.value;
@@ -205,7 +205,20 @@ function registerHere(){
     let number=form.number.value;
     let password=form.password.value;
 
-        let signupdetail={
+
+        if (Firstname.length == 0 || Lastname.length ==0 || email.length==0 || number.length==0 || password.length==0) {
+        let div = document.createElement("div");
+        div.innerHTML = "please fill all the details";
+        let alert = document.getElementById("alert");
+        alert.innerHTML = null;
+        alert.append(div);
+
+        return 
+    }
+
+    window.location.href = "login.html";
+
+        let locations={
         Firstname,
         Lastname,
         email,
@@ -213,28 +226,33 @@ function registerHere(){
         password,
     };
 
-    if( Firstname=="" || Lastname=="" || email=="" || password=="" || number=="" ){
-        alert("plase fill all details")
-    }else{
 
     let arr;
+    arr = localStorage.getItem("details");
 
-    arr=localStorage.getItem('signup');
-    if(arr==null){
-        arr=[];
-    }else{
-        arr=JSON.parse(localStorage.getItem("signup"));
+    if (arr == null) {
+        arr = [];
     }
-    arr.push(signupdetail);
-     localStorage.setItem("signup", JSON.stringify(arr));
+    else {
+        arr = JSON.parse(localStorage.getItem("details"));
+    }
 
-        window.location.href='Home.html'
+    arr.push(location);
+
+    localStorage.setItem("details", JSON.stringify(arr));
+
+
+    form.Firstname.value = null;
+    form.Lastname.value = null;
+    form.number.value = null;
+    form.email.value = null;
+    form.password.value = null;
 
 }
- 
 
+function loginpage() {
+    window.location.href = "login.html";
 }
-
 
 
 </script>
