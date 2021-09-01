@@ -2,91 +2,78 @@ let slider4Data = [
   {
     name: "AMD Rayzon 5 5600X 3 GHZ Desktop Processor",
     price: 38256,
-    img: "https://c1.neweggimages.com/ProductImageCompressAll300/19-113-666-V01.jpg",
+    img: "https://c1.neweggimages.com/ProductImageCompressAll300/19-118-231-V04.jpg",
     rating: "",
   },
   {
     name: "Arctic silver AS%-3.G Thermal Compound",
     price: 716,
-    img: "https://c1.neweggimages.com/ProductImageCompressAll300/35-100-007-04.jpg",
+    img: "https://c1.neweggimages.com/ProductImageCompressAll300/83-360-190-01.jpg",
     rating: "",
   },
   {
     name: "Western Digital WD black SN750 NVMe M > 2 1 TB ...",
     price: 11663,
-    img: "https://c1.neweggimages.com/ProductImageCompressAll300/20-147-790-V01.jpg",
+    img: "https://c1.neweggimages.com/ProductImageCompressAll300/29-102-109-V01.jpg",
   },
   {
     name: "Western Digital WD NVMe M>2 2280 1 TB  static Drive",
     price: 7919,
-    img: "https://c1.neweggimages.com/ProductImageCompressAll300/20-250-135-05.jpg",
+    img: "https://c1.neweggimages.com/ProductImageCompressAll300/14-137-054-07.jpg",
   },
   {
     name: "SAMSUNG 870 EVO Sereies 2.5 SATA internal solid state ",
     price: 14091,
-    img: "https://c1.neweggimages.com/ProductImageCompressAll300/20-147-793-V07.jpg",
+    img: "https://c1.neweggimages.com/ProductImageCompressAll300/20-232-091-04.jpg",
   },
   {
     name: "WD Blue 3D NAND 1TB Internal 6GB/s 2.5 SSD",
     price: 9719,
-    img: "https://c1.neweggimages.com/ProductImageCompressAll300/20-250-088-V03.jpg",
+    img: "https://c1.neweggimages.com/ProductImageCompressAll300/14-500-515-V01.jpg",
   },
   {
     name: "GIGBATE G27Q 27 144Hz 144Hz 1440P Gaming Monitor",
     price: 26973,
 
-    img: "https://c1.neweggimages.com/ProductImageCompressAll300/24-012-018-V05.jpg",
+    img: "https://c1.neweggimages.com/ProductImageCompressAll300/13-157-937-V01.jpg",
   },
   {
-    name: "G.S skill trident 16 GB 288 Pin DDR-4 3600 intel XMP",
-    price: 9523,
-    img: "https://c1.neweggimages.com/ProductImageCompressAll300/20-232-728-V01.jpg",
-  },
-  {
-    name: "Fractal Design Meshify C White -TG FD- CA-MESH-C-WT-TGC ",
-    price: 8079,
-    img: "https://c1.neweggimages.com/ProductImageCompressAll300/11-352-087-V01.jpg",
+    name: "AMD Rayzon 5 5600X 3 GHZ Desktop Processor",
+    price: 38256,
+    img: "https://c1.neweggimages.com/ProductImageCompressAll300/19-118-231-V04.jpg",
+    rating: "",
   },
   {
     name: "Arctic silver AS%-3.G Thermal Compound",
     price: 716,
-    img: "https://c1.neweggimages.com/ProductImageCompressAll300/35-100-007-04.jpg",
+    img: "https://c1.neweggimages.com/ProductImageCompressAll300/83-360-190-01.jpg",
+    rating: "",
   },
   {
     name: "Western Digital WD black SN750 NVMe M > 2 1 TB ...",
     price: 11663,
-    img: "https://c1.neweggimages.com/ProductImageCompressAll300/20-147-790-V01.jpg",
+    img: "https://c1.neweggimages.com/ProductImageCompressAll300/29-102-109-V01.jpg",
   },
   {
     name: "Western Digital WD NVMe M>2 2280 1 TB  static Drive",
     price: 7919,
-    img: "https://c1.neweggimages.com/ProductImageCompressAll300/20-250-135-05.jpg",
+    img: "https://c1.neweggimages.com/ProductImageCompressAll300/14-137-054-07.jpg",
   },
   {
     name: "SAMSUNG 870 EVO Sereies 2.5 SATA internal solid state ",
     price: 14091,
-    img: "https://c1.neweggimages.com/ProductImageCompressAll300/20-147-793-V07.jpg",
+    img: "https://c1.neweggimages.com/ProductImageCompressAll300/20-232-091-04.jpg",
   },
   {
     name: "WD Blue 3D NAND 1TB Internal 6GB/s 2.5 SSD",
     price: 9719,
-    img: "https://c1.neweggimages.com/ProductImageCompressAll300/20-250-088-V03.jpg",
+    img: "https://c1.neweggimages.com/ProductImageCompressAll300/14-500-515-V01.jpg",
   },
   {
     name: "GIGBATE G27Q 27 144Hz 144Hz 1440P Gaming Monitor",
     price: 26973,
 
-    img: "https://c1.neweggimages.com/ProductImageCompressAll300/24-012-018-V05.jpg",
-  },
-  {
-    name: "G.S skill trident 16 GB 288 Pin DDR-4 3600 intel XMP",
-    price: 9523,
-    img: "https://c1.neweggimages.com/ProductImageCompressAll300/20-232-728-V01.jpg",
-  },
-  {
-    name: "Fractal Design Meshify C White -TG FD- CA-MESH-C-WT-TGC ",
-    price: 8079,
-    img: "https://c1.neweggimages.com/ProductImageCompressAll300/11-352-087-V01.jpg",
+    img: "https://c1.neweggimages.com/ProductImageCompressAll300/13-157-937-V01.jpg",
   },
 ];
 

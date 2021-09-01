@@ -2,91 +2,78 @@ let TopRateData = [
   {
     name: "AMD Rayzon 5 5600X 3 GHZ Desktop Processor",
     price: 38256,
-    img: "https://c1.neweggimages.com/ProductImageCompressAll300/19-113-666-V01.jpg",
+    img: "https://rukminim1.flixcart.com/image/312/312/kfpq5jk0/computer/h/t/b/msi-na-gaming-laptop-original-imafw3yhmdkzmhzr.jpeg?q=70",
     rating: "",
   },
   {
     name: "Arctic silver AS%-3.G Thermal Compound",
     price: 716,
-    img: "https://c1.neweggimages.com/ProductImageCompressAll300/35-100-007-04.jpg",
+    img: "https://rukminim1.flixcart.com/image/312/312/ke353m80/computer/p/q/m/msi-original-imafuurxjxzy4zcn.jpeg?q=70",
     rating: "",
   },
   {
     name: "Western Digital WD black SN750 NVMe M > 2 1 TB ...",
     price: 11663,
-    img: "https://c1.neweggimages.com/ProductImageCompressAll300/20-147-790-V01.jpg",
+    img: "https://rukminim1.flixcart.com/image/312/312/kmxsakw0/computer/f/g/t/na-laptop-msi-original-imagfq9cthg4wxwh.jpeg?q=70",
   },
   {
     name: "Western Digital WD NVMe M>2 2280 1 TB  static Drive",
     price: 7919,
-    img: "https://c1.neweggimages.com/ProductImageCompressAll300/20-250-135-05.jpg",
+    img: "https://rukminim1.flixcart.com/image/312/312/kmwcuq80/computer/d/z/k/na-gaming-laptop-acer-original-imagfp8wrqwe6v6w.jpeg?q=70",
   },
   {
     name: "SAMSUNG 870 EVO Sereies 2.5 SATA internal solid state ",
     price: 14091,
-    img: "https://c1.neweggimages.com/ProductImageCompressAll300/20-147-793-V07.jpg",
+    img: "https://rukminim1.flixcart.com/image/312/312/kmns7m80/computer/g/5/p/na-gaming-laptop-acer-original-imagfgq6mjjqwwhq.jpeg?q=70",
   },
   {
     name: "WD Blue 3D NAND 1TB Internal 6GB/s 2.5 SSD",
     price: 9719,
-    img: "https://c1.neweggimages.com/ProductImageCompressAll300/20-250-088-V03.jpg",
+    img: "https://rukminim1.flixcart.com/image/312/312/kcm9t3k0/computer/q/x/r/hp-na-gaming-laptop-original-imaftpesbvfxgw9t.jpeg?q=70",
   },
   {
     name: "GIGBATE G27Q 27 144Hz 144Hz 1440P Gaming Monitor",
     price: 26973,
 
-    img: "https://c1.neweggimages.com/ProductImageCompressAll300/24-012-018-V05.jpg",
+    img: "https://rukminim1.flixcart.com/image/312/312/ko382a80/computer/b/v/u/na-gaming-laptop-asus-original-imag2mrvrxgsaahh.jpeg?q=70",
   },
   {
-    name: "G.S skill trident 16 GB 288 Pin DDR-4 3600 intel XMP",
-    price: 9523,
-    img: "https://c1.neweggimages.com/ProductImageCompressAll300/20-232-728-V01.jpg",
-  },
-  {
-    name: "Fractal Design Meshify C White -TG FD- CA-MESH-C-WT-TGC ",
-    price: 8079,
-    img: "https://c1.neweggimages.com/ProductImageCompressAll300/11-352-087-V01.jpg",
+    name: "AMD Rayzon 5 5600X 3 GHZ Desktop Processor",
+    price: 38256,
+    img: "https://rukminim1.flixcart.com/image/312/312/kfpq5jk0/computer/h/t/b/msi-na-gaming-laptop-original-imafw3yhmdkzmhzr.jpeg?q=70",
+    rating: "",
   },
   {
     name: "Arctic silver AS%-3.G Thermal Compound",
     price: 716,
-    img: "https://c1.neweggimages.com/ProductImageCompressAll300/35-100-007-04.jpg",
+    img: "https://rukminim1.flixcart.com/image/312/312/ke353m80/computer/p/q/m/msi-original-imafuurxjxzy4zcn.jpeg?q=70",
+    rating: "",
   },
   {
     name: "Western Digital WD black SN750 NVMe M > 2 1 TB ...",
     price: 11663,
-    img: "https://c1.neweggimages.com/ProductImageCompressAll300/20-147-790-V01.jpg",
+    img: "https://rukminim1.flixcart.com/image/312/312/kmxsakw0/computer/f/g/t/na-laptop-msi-original-imagfq9cthg4wxwh.jpeg?q=70",
   },
   {
     name: "Western Digital WD NVMe M>2 2280 1 TB  static Drive",
     price: 7919,
-    img: "https://c1.neweggimages.com/ProductImageCompressAll300/20-250-135-05.jpg",
+    img: "https://rukminim1.flixcart.com/image/312/312/kmwcuq80/computer/d/z/k/na-gaming-laptop-acer-original-imagfp8wrqwe6v6w.jpeg?q=70",
   },
   {
     name: "SAMSUNG 870 EVO Sereies 2.5 SATA internal solid state ",
     price: 14091,
-    img: "https://c1.neweggimages.com/ProductImageCompressAll300/20-147-793-V07.jpg",
+    img: "https://rukminim1.flixcart.com/image/312/312/kmns7m80/computer/g/5/p/na-gaming-laptop-acer-original-imagfgq6mjjqwwhq.jpeg?q=70",
   },
   {
     name: "WD Blue 3D NAND 1TB Internal 6GB/s 2.5 SSD",
     price: 9719,
-    img: "https://c1.neweggimages.com/ProductImageCompressAll300/20-250-088-V03.jpg",
+    img: "https://rukminim1.flixcart.com/image/312/312/kcm9t3k0/computer/q/x/r/hp-na-gaming-laptop-original-imaftpesbvfxgw9t.jpeg?q=70",
   },
   {
     name: "GIGBATE G27Q 27 144Hz 144Hz 1440P Gaming Monitor",
     price: 26973,
 
-    img: "https://c1.neweggimages.com/ProductImageCompressAll300/24-012-018-V05.jpg",
-  },
-  {
-    name: "G.S skill trident 16 GB 288 Pin DDR-4 3600 intel XMP",
-    price: 9523,
-    img: "https://c1.neweggimages.com/ProductImageCompressAll300/20-232-728-V01.jpg",
-  },
-  {
-    name: "Fractal Design Meshify C White -TG FD- CA-MESH-C-WT-TGC ",
-    price: 8079,
-    img: "https://c1.neweggimages.com/ProductImageCompressAll300/11-352-087-V01.jpg",
+    img: "https://rukminim1.flixcart.com/image/312/312/ko382a80/computer/b/v/u/na-gaming-laptop-asus-original-imag2mrvrxgsaahh.jpeg?q=70",
   },
 ];
 
