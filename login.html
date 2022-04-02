@@ -1,297 +1,263 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
-        body{
-            margin: 0;
-            padding: 0;
-            width: 100%;
-            height: 100vh;
-            font-family: Open Sans,Helvetica,Arial,sans-serif;
-        }
+      body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100vh;
+        font-family: Open Sans, Helvetica, Arial, sans-serif;
+      }
 
-        #parent{
-            display: flex;
-        }
+      #parent {
+        display: flex;
+      }
 
-        #leftBox{
-            width: 50%;
-            height: 99vh;
-            position: relative;
-            background-color: #00283A;
-        }
+      #leftBox {
+        width: 50%;
+        height: 99vh;
+        position: relative;
+        background-color: #00283a;
+      }
 
-        .qrcodebox  p{
-            width: 100%;
-            text-align: center;
-            color: ghostwhite;
-            font-size: 15px;
-            font-weight: 700;
+      .qrcodebox p {
+        width: 100%;
+        text-align: center;
+        color: ghostwhite;
+        font-size: 15px;
+        font-weight: 700;
+      }
 
-        }
+      .qrcodebox img {
+        margin-left: 18%;
+        width: 65%;
+      }
 
-        .qrcodebox img{
-           margin-left: 18%;
-           width: 65%;
-           
-        }
+      .qrcodebox p:nth-child(1) {
+        padding-top: 50px;
+        font-size: 16px;
+        font-weight: 700;
+      }
 
-        .qrcodebox  p:nth-child(1){
-            padding-top: 50px;
-            font-size: 16px;
-            font-weight: 700;
-        }
+      .qrcodebox .spanApp {
+        color: #7ac3e3;
+        text-decoration: underline;
+      }
 
-        .qrcodebox  .spanApp{
-            color: #7ac3e3;
-            text-decoration: underline;
-        }
+      .qrcodebox .spanHow {
+        text-decoration: underline;
+      }
 
-        .qrcodebox .spanHow{
-            text-decoration: underline;
-        }
+      #leftBox > div > img {
+        max-width: 130px;
+        height: 65px;
+        margin-top: 5%;
+        margin-left: 5%;
+      }
+      .qrcodebox {
+        max-width: 43%;
+        min-height: 66vh;
+        background-color: #0d3344;
+        margin-left: 40%;
+        margin-top: 10%;
+      }
 
-        #leftBox > div > img{
-            max-width: 130px;
-            height: 65px;
-            margin-top: 5%;
-            margin-left: 5%;
-    
-        }
-        .qrcodebox{
-            max-width: 43%;
-            min-height: 66vh;
-            background-color: #0D3344;
-            margin-left: 40%;
-            margin-top: 10%;
-        }
+      #rightBox {
+        width: 50%;
+        position: relative;
+      }
 
-        #rightBox{
-            width: 50%;
-            position: relative;
+      #orBox {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        margin-left: 0;
+        width: 56px;
+        height: 56px;
+        transform: translate(-50%, -50%);
+        background: #00283a;
+        border-radius: 100%;
+        font-size: 18px;
+        line-height: 56px;
+        text-transform: uppercase;
+        transition: margin-left 0.3s;
+      }
 
-        }
+      #orBox > div {
+        color: white;
+        text-align: center;
+      }
 
-        #orBox{
-            position: fixed;
-            top: 50%;
-            left: 50%;
-            margin-left: 0;
-            width: 56px;
-            height: 56px;
-            transform: translate(-50%,-50%);
-            background: #00283a;
-            border-radius: 100%;
-            font-size: 18px;
-            line-height: 56px;
-            text-transform: uppercase;
-            transition: margin-left .3s;
-    
-        }
+      #rightBox > div {
+        width: 305px;
+        /* height: 235px; */
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 16%;
+        margin-top: 16%;
+      }
 
-        #orBox> div{
-            color: white;
-            text-align: center;
-        }
+      #rightBox label {
+        width: 100%;
+        text-align: center;
+        color: #222;
+        font-weight: 700;
+        font-size: 17px;
+        margin: 0 0 15px;
+      }
 
-        #rightBox > div{
-            width: 305px;
-            /* height: 235px; */
-            display: flex;
-            flex-wrap: wrap;
-            margin-left:16% ;
-            margin-top: 16%;
-        }
+      #rightBox > div > input {
+        width: 100%;
+        height: 6vh;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        /* background: transparent; */
+        border: 1px solid teal;
+        color: #606060;
+        font-size: 15px;
+        cursor: text;
+        transition: all 0.2s;
+        border-radius: 5px;
+      }
+      #btn1 {
+        background-color: #f39834;
+        border: 1px solid #d60;
+      }
 
-        #rightBox  label{
-            width: 100%;
-            text-align: center;
-            color: #222;
-            font-weight: 700;
-            font-size: 17px;
-            margin: 0 0 15px;
-            
-        }
+      #btn2 {
+        border: 0.1px solid lightgray;
+      }
 
-        #rightBox > div >input{
-            width:100% ;
-            height: 6vh;
-            padding: 0;
-            margin: 0;
-            text-align: center;
-            /* background: transparent; */
-            border: 1px solid teal;
-            color: #606060;
-            font-size: 15px;
-            cursor: text;
-            transition: all .2s;
-            border-radius: 5px;
-        }
-        #btn1{
-            background-color: #F39834;
-             border:1px solid #d60;
-           
-        }
-     
-         #btn2{
-             border: 0.1px solid lightgray;
+      #btn2:hover {
+        border: 1px solid blue;
+        color: blue;
+      }
 
-         }
+      #btn1:hover {
+        background-color: #d60;
+      }
+      #btn1,
+      #btn2 {
+        color: #222;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1;
+        text-align: center;
+        text-decoration: none;
+        width: 100%;
+        margin-top: 5%;
+        height: 45px;
+        border-radius: 5px;
+      }
 
-         #btn2:hover{
-             border: 1px solid blue;
-             color: blue;
-         }
+      #rightBox > div > p {
+        width: 100%;
+        text-align: center;
+        font-weight: 500;
+        font-size: 15px;
+      }
 
-         #btn1:hover{
-             background-color: #d60;
-         }
-        #btn1,#btn2{
-            color: #222;
-            font-weight: 700;
-            font-size: 14px;
-            line-height: 1;
-            text-align: center;
-            text-decoration: none;
-            width: 100%;
-            margin-top: 5%;
-            height: 45px;
-            border-radius: 5px;
-        }
+      #rightBox > div > p > a {
+        font-weight: 700;
+        color: black;
+      }
 
-        #rightBox > div > p{
-            width: 100%;
-            text-align: center;
-            font-weight: 500;
-            font-size: 15px;
-        }
+      #rightBox > div > span {
+        width: 100%;
+        margin-top: 55%;
+        text-align: center;
+        font-size: 13px;
+        line-height: 25px;
+        color: #606060;
+        text-decoration: underline;
+      }
 
-        #rightBox > div > p> a{
-            font-weight: 700;
-            color: black;
-        }
+      .captcha {
+        position: fixed;
+        top: 50%;
+        left: 77%;
+      }
 
-        #rightBox > div > span{
-            width: 100%;
-            margin-top: 55%;
-            text-align: center;
-            font-size: 13px;
-            line-height: 25px;
-            color:#606060;
-            text-decoration: underline;;
-
-        }
-
-        .captcha{
-            position: fixed;
-            top: 50%;
-            left: 77%;
-
-        }
-
-        .captcha img{
-            width: 80px;
-            height: 80px;
-        }
-
-
+      .captcha img {
+        width: 80px;
+        height: 80px;
+      }
     </style>
-</head>
-<body>
-    
+  </head>
+  <body>
     <div id="container">
-        <div id="parent"> 
-            <div id="leftBox">
-                <div> <img src="https://c1.neweggimages.com/WebResource/Themes/2005/Nest/logo_424x210.png" alt="Logo"></div>
-                <div class="qrcodebox">
-                  <div>
-                      <p>Sign in with QR Code</p>
-                      <img src="Images\out.png" alt="qrcode">
-                      <p>Scan with the <span class="spanApp">latest Newegg app </span> <br> to sign in instaantly. </p>
-               
-                      <p><span class="spanHow">How to Scan?</span></p>
-                  </div>  
-                </div>
+      <div id="parent">
+        <div id="leftBox">
+          <div>
+            <img
+              src="https://c1.neweggimages.com/WebResource/Themes/2005/Nest/logo_424x210.png"
+              alt="Logo"
+            />
+          </div>
+          <div class="qrcodebox">
+            <div>
+              <p>Sign in with QR Code</p>
+              <img src="Images\out.png" alt="qrcode" />
+              <p>
+                Scan with the <span class="spanApp">latest Newegg app </span>
+                <br />
+                to sign in instaantly.
+              </p>
 
-            <div id="orBox"> <div>OR</div> </div>
+              <p><span class="spanHow">How to Scan?</span></p>
             </div>
+          </div>
 
-            <div id="rightBox">
-                <div>
-                <label for="signin">Sign In</label>
-                <input type="text" id="emailL" placeholder="Email Adress">
-                <button id="btn1" onclick="checkcredentials()">SIGN IN</button>
-                <button id="btn2">SEND ONE TIME-CODE</button>
-                <P>New to Newegg? <a href="signup.html">Sign Up</a></P>
-                <span>Terms & Conditions | Privacy Policy <br> Manage Cookie <br> © 2000-2021 Newegg Inc. All rights reserved</span>
-                </div>
-                  <div class="captcha" > <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/RecaptchaLogo.svg/1200px-RecaptchaLogo.svg.png" alt="captcha"></div>
-            </div>
-
-          
-
+          <div id="orBox"><div>OR</div></div>
         </div>
-        
+
+        <div id="rightBox">
+          <div>
+            <label for="signin">Sign In</label>
+            <input type="text" id="email" placeholder="Email Adress" />
+            <button id="btn1" onclick="checkcredentials()">SIGN IN</button>
+            <button id="btn2">SEND ONE TIME-CODE</button>
+            <p>New to Newegg? <a href="signup.html">Sign Up</a></p>
+            <span
+              >Terms & Conditions | Privacy Policy <br />
+              Manage Cookie <br />
+              © 2000-2021 Newegg Inc. All rights reserved</span
+            >
+          </div>
+          <div class="captcha">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/RecaptchaLogo.svg/1200px-RecaptchaLogo.svg.png"
+              alt="captcha"
+            />
+          </div>
+        </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>
 
 <script>
+  function checkcredentials() {
+    let email = document.getElementById("email").value;
+    let data = JSON.parse(localStorage.getItem("items"));
+    let login = false
 
-function checkcredentials() {
+    data.map((el) => {
+      if (el.email == email) {
+        login=true
+      }
+    });
 
-  let email = document.getElementById("emailL").value;
-  
-  let arr;
-  arr = JSON.parse(localStorage.getItem("details"));
-
-  for (var i = 0; i < arr.length; i++) {
-    if (arr[i].email === email) {
-      window.location.href = "home.html"
-      return;
-    }
+    if(login){
+        window.location.href = "index.html";
+      } else {
+        alert("Please Sign in first");
+      }
   }
-  let div = document.createElement("div");
-  div.innerHTML = "Invalid email"
-  let alert = document.getElementById("alert");
-  alert.innerHTML = null;
-  alert.append(div);
-
-
-
-}
-
-
-
-function checkcredentials() { //11
-    // prvent default behavior of input submit
-
-   let email = document.getElementById("emailL").value;
-    
-    
-    // 2- check the data
-  const admins = JSON.parse(localStorage.getItem('details'));
- // console.log(admins)
-
-    for (let i = 0; i < admins.length; i++) { //check admin username and password is correct
-        let u = admins[i].email;
-      
-       // console.log(u,p)
-
-        if (email) { //check input value
-          
-          window.location.href='home.html'
-            break;
-        }else {
-            alert("invalid Credentials")
-        }
-    }
-}
-
-
-
 </script>

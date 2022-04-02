@@ -177,8 +177,10 @@
       <span class="checkboxtitle">Subscribe for exclusive e-mail offers and discounts</span>
       </div>
      <div class="form-note">By creating an account, you agree to Newegg’s  <br>  Privacy Notice and.</div>
+  
       </form>
-    <button onclick="storeDetails()">SIGN UP</button>
+          <button onclick="storeDetails()">SIGN UP</button>
+   
 
     <p id="t1">Have an account? <a href="login.html">Sign In</a></p>   <br>
     <p id="t2"> Terms & Conditions | Privacy Policy <br> Manage Cookie <br> © 2000-2021 Newegg Inc. All rights reserved</p>
@@ -195,8 +197,14 @@
 
 <script>
 
+        let data = localStorage.getItem('items')
+        if(data === null){
+        localStorage.setItem('items',JSON.stringify([]))
+        }
+
+
 function storeDetails() {
-let data_div=document.getElementById('signupData')
+  let data_div=document.getElementById('signupData')
 
     let form=document.getElementById("myformsignup");
     let Firstname=form.Firstname.value;
@@ -206,18 +214,6 @@ let data_div=document.getElementById('signupData')
     let password=form.password.value;
 
 
-        if (Firstname.length == 0 || Lastname.length ==0 || email.length==0 || number.length==0 || password.length==0) {
-        let div = document.createElement("div");
-        div.innerHTML = "please fill all the details";
-        let alert = document.getElementById("alert");
-        alert.innerHTML = null;
-        alert.append(div);
-
-        return 
-    }
-
-    window.location.href = "login.html";
-
         let locations={
         Firstname,
         Lastname,
@@ -226,20 +222,18 @@ let data_div=document.getElementById('signupData')
         password,
     };
 
-
-    let arr;
-    arr = localStorage.getItem("details");
-
-    if (arr == null) {
-        arr = [];
-    }
-    else {
-        arr = JSON.parse(localStorage.getItem("details"));
+    if(Firstname && Lastname && email && number && password){
+      window.location.href = "login.html";
+    }else{
+        alert("Please fill all the details")
     }
 
-    arr.push(location);
-
-    localStorage.setItem("details", JSON.stringify(arr));
+      let data = JSON.parse(localStorage.getItem('items'))
+      if(email.length > 0){
+      data.push(locations)
+      }
+      localStorage.setItem('items',JSON.stringify(data));
+     
 
 
     form.Firstname.value = null;
@@ -248,10 +242,6 @@ let data_div=document.getElementById('signupData')
     form.email.value = null;
     form.password.value = null;
 
-}
-
-function loginpage() {
-    window.location.href = "login.html";
 }
 
 
