@@ -41,7 +41,6 @@
         
 
       - Add To Cart
-      - Quantity `(Increase/Decrease)`
       - Live Total Price Update
     - Product Page
       - Show Dynamically Product Details
